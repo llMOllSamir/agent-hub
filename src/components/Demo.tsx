@@ -1,4 +1,4 @@
-import notFound from "../../public/assets/images/notfound.jpg"
+import notFound from "../../public/assets/images/notfound.webp"
 export default function Demo() {
     return (
         <section className=" grow flex flex-col px-8  md:p-10 gap-5  " style={{
