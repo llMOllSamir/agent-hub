@@ -1,4 +1,3 @@
-import React from 'react'
 import { CallRecord } from '../../types/dataTypes'
 import { VictoryChart, VictoryLine, VictoryAxis, VictoryTheme, VictoryTooltip } from "victory";
 import dayjs from 'dayjs';

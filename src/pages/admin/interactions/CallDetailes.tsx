@@ -1,4 +1,4 @@
-import React, { useContext, useMemo } from 'react'
+import { useContext, useMemo } from 'react'
 import { agentsContext } from '../../../context/AgentsContext'
 import { callsContext } from '../../../context/callsContext'
 import { useParams } from 'react-router-dom'

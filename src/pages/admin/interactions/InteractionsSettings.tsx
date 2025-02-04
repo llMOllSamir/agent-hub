@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState } from 'react'
+import { useContext, useRef, useState } from 'react'
 import { callsContext } from '../../../context/callsContext'
 import { ChevronDown } from 'lucide-react'
 

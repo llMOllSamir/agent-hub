@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import { useMemo } from 'react'
 import { CallRecord, SessionTranscript } from '../../types/dataTypes'
 import DataTable, { TableColumn, TableStyles } from 'react-data-table-component'
 

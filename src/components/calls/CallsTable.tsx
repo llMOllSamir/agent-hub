@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { CallRecord } from '../../types/dataTypes'
 import DataTable, { TableColumn, TableStyles } from 'react-data-table-component'
 import { useNavigate } from 'react-router-dom'

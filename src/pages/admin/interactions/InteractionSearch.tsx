@@ -1,4 +1,4 @@
-import React, { useCallback, useContext, useMemo, useState } from 'react'
+import { useCallback, useContext, useMemo, useState } from 'react'
 import { callsContext } from '../../../context/callsContext'
 import CallsTable from '../../../components/calls/CallsTable'
 import { agentsContext } from '../../../context/AgentsContext'
