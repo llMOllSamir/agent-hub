@@ -1,9 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import WaveSurfer from "wavesurfer.js";
 import { Play, Pause, Volume2, VolumeX } from "lucide-react";
-import { CallRecord } from "../types/dataTypes";
 
-const AudioPlayer = ({ src, call }: { src: string, call: CallRecord }) => {
+const AudioPlayer = ({ src }: { src: string }) => {
     const waveformRef = useRef<HTMLDivElement | null>(null);
     const wavesurfer = useRef<WaveSurfer | null>(null);
     const [isPlaying, setIsPlaying] = useState(false);
@@ -13,6 +12,7 @@ const AudioPlayer = ({ src, call }: { src: string, call: CallRecord }) => {
 
     useEffect(() => {
         if (!waveformRef.current) return;
+        console.log(duration);
 
         wavesurfer.current = WaveSurfer.create({
             container: waveformRef.current,

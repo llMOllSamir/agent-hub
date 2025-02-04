@@ -95,7 +95,7 @@ export default function CallDetails() {
                 </div>
             </div>
             <div className='my-10'>
-                <AudioPlayer call={call} src={audio} />
+                <AudioPlayer src={audio} />
             </div>
             <div>
                 <h2 className='text-2xl font-bold my-5 text-blue-700'>Call Recording Script</h2>

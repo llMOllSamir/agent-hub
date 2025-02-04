@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import { agentsContext } from '../context/AgentsContext'
 import { useFormik } from 'formik'
 import { X } from 'lucide-react'
