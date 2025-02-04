@@ -22,6 +22,7 @@ import InteractionAnalysis from './pages/admin/interactions/InteractionAnalysis'
 import RoleContextProvider from './context/RolesContext'
 import PermissionsContextProvider from './context/permissionsContext'
 import CallsContextProvider from './context/callsContext'
+import Demo from './components/Demo'
 
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
       path: "/", element: <ProtectedRoutes   ><Outlet /></ProtectedRoutes>, children: [
         {
           path: "/", element: <HomeLayout />, children: [ // agents dashboard
-            { index: true, element: <h1>Hello From Dashboard</h1> }
+            { index: true, element: <Demo /> }
           ]
         },
         {
@@ -78,7 +79,7 @@ function App() {
             }
           ]
         },
-        { path: "*", element: <h1>404</h1> }
+        { path: "*", element: <Demo /> }
 
       ]
     },

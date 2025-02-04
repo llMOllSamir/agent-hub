@@ -1,6 +1,7 @@
+import Demo from "../../../components/Demo";
 
 export default function Statistical() {
     return (
-        <div>Statistical</div>
+        <Demo />
     )
 }

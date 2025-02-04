@@ -1,6 +1,7 @@
+import Demo from "../../../components/Demo";
 
 export default function InteractionAnalysis() {
     return (
-        <div>InteractionAnalysis</div>
+        <Demo />
     )
 }
