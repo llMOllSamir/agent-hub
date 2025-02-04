@@ -39,7 +39,7 @@ export default function Login() {
 
     return (
         <main className='grow flex items-center justify-center '>
-            <form onSubmit={formik.handleSubmit} className='flex flex-col p-10 rounded-2xl  min-w-96 text-lg font-semibold  border  shadow-white shadow-md gap-5  ' >
+            <form onSubmit={formik.handleSubmit} className='flex flex-col p-10 rounded-2xl  min-w-96 text-lg font-semibold   text-black bg-white shadow-md gap-5  ' >
                 <h1 className='text-4xl mb-5 text-center text-blue-600 font-extrabold '>Agent Hub</h1>
                 <h2 className='text-3xl text-center font-bold '>Login</h2>
                 {error && <p className='text-red-600 text-center text-sm font-bold'>{error}</p>}

@@ -35,6 +35,7 @@ export default function CallDurationChart({ call }: Props) {
                 data={formattedData}
                 x="index"
                 y="duration"
+                animate
                 style={{
                     data: { stroke: "blue", strokeWidth: 2 },
                 }}
