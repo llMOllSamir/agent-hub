@@ -1,0 +1,3986 @@
+[
+  {
+    "id": 1,
+    "name": "Leslie Mccall",
+    "profile_image": "https://placekitten.com/130/784",
+    "role": "Agent",
+    "department": "Cardiology",
+    "contact": {
+      "email": "troystevens@sanchez-mccullough.biz",
+      "phone": "001-617-839-2341x63225",
+      "extension": "750"
+    },
+    "status": "Active",
+    "shifts": ["Evening"],
+    "hire_date": "1975-10-02",
+    "experience": "3 years",
+    "supervisor": "Tyler Brown",
+    "location": "Wendychester Branch",
+    "performance": {
+      "avg_call_duration": "2m 38s",
+      "total_calls": 483,
+      "missed_calls": 40,
+      "resolved_calls": 443,
+      "call_rating_avg": 3.7,
+      "call_distribution": {
+        "morning": 203,
+        "evening": 199
+      }
+    },
+    "activity": {
+      "last_login": "2001-08-24T13:09:38",
+      "last_call_time": "1991-08-18T07:56:14",
+      "break_time_today": "38m",
+      "active_time_today": "6h 10m"
+    },
+    "skills": ["Crisis Management", "Technical Support", "Medical Assistance"],
+    "notes": [
+      {
+        "date": "2009-11-10",
+        "added_by": "Admin",
+        "content": "Seek relate full radio life size soldier site."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C328",
+        "date": "1977-05-08",
+        "duration": "2m 11s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C418",
+        "date": "1983-07-01",
+        "duration": "3m 40s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C172",
+        "date": "2011-12-30",
+        "duration": "3m 24s",
+        "status": "Missed",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "John Carter",
+    "profile_image": "https://www.lorempixel.com/338/203",
+    "role": "Agent",
+    "department": "Cardiology",
+    "contact": {
+      "email": "dawncooley@hotmail.com",
+      "phone": "+1-625-065-0844",
+      "extension": "885"
+    },
+    "status": "Inactive",
+    "shifts": ["Morning", "Evening"],
+    "hire_date": "1995-01-15",
+    "experience": "9 years",
+    "supervisor": "Christopher Williams",
+    "location": "South Bridget Branch",
+    "performance": {
+      "avg_call_duration": "3m 21s",
+      "total_calls": 815,
+      "missed_calls": 65,
+      "resolved_calls": 750,
+      "call_rating_avg": 4.0,
+      "call_distribution": {
+        "morning": 176,
+        "evening": 189
+      }
+    },
+    "activity": {
+      "last_login": "1993-06-11T07:29:37",
+      "last_call_time": "1989-09-28T23:00:49",
+      "break_time_today": "35m",
+      "active_time_today": "8h 40m"
+    },
+    "skills": ["Medical Assistance", "Crisis Management"],
+    "notes": [
+      {
+        "date": "2008-11-12",
+        "added_by": "Admin",
+        "content": "Case charge media human talk guy."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C665",
+        "date": "1997-05-09",
+        "duration": "4m 10s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C453",
+        "date": "1972-10-26",
+        "duration": "2m 25s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C144",
+        "date": "2024-12-22",
+        "duration": "5m 12s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C388",
+        "date": "2011-08-29",
+        "duration": "2m 39s",
+        "status": "Resolved",
+        "rating": null
+      },
+      {
+        "call_id": "C470",
+        "date": "2015-05-14",
+        "duration": "2m 59s",
+        "status": "Resolved",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "James Anthony",
+    "profile_image": "https://www.lorempixel.com/695/293",
+    "role": "Agent",
+    "department": "Cardiology",
+    "contact": {
+      "email": "jamiemiller@hotmail.com",
+      "phone": "118-410-2250",
+      "extension": "217"
+    },
+    "status": "Active",
+    "shifts": ["Night"],
+    "hire_date": "1979-01-13",
+    "experience": "4 years",
+    "supervisor": "Kristin Lopez",
+    "location": "New Gary Branch",
+    "performance": {
+      "avg_call_duration": "3m 48s",
+      "total_calls": 811,
+      "missed_calls": 12,
+      "resolved_calls": 799,
+      "call_rating_avg": 3.8,
+      "call_distribution": {
+        "morning": 73,
+        "evening": 210
+      }
+    },
+    "activity": {
+      "last_login": "1992-04-08T10:24:45",
+      "last_call_time": "1974-03-11T13:41:32",
+      "break_time_today": "14m",
+      "active_time_today": "7h 33m"
+    },
+    "skills": [
+      "Technical Support",
+      "Crisis Management",
+      "Customer Support",
+      "Bilingual (English, Spanish)"
+    ],
+    "notes": [
+      {
+        "date": "1972-10-26",
+        "added_by": "Admin",
+        "content": "Government instead keep account."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C654",
+        "date": "1974-01-31",
+        "duration": "5m 25s",
+        "status": "Ongoing",
+        "rating": 3
+      },
+      {
+        "call_id": "C792",
+        "date": "1970-02-10",
+        "duration": "4m 46s",
+        "status": "Missed",
+        "rating": null
+      },
+      {
+        "call_id": "C134",
+        "date": "1998-08-04",
+        "duration": "3m 50s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C817",
+        "date": "1987-10-28",
+        "duration": "2m 20s",
+        "status": "Ongoing",
+        "rating": 3
+      },
+      {
+        "call_id": "C573",
+        "date": "1975-05-06",
+        "duration": "4m 18s",
+        "status": "Ongoing",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "David Walsh",
+    "profile_image": "https://placeimg.com/12/186/any",
+    "role": "Agent",
+    "department": "Pediatrics",
+    "contact": {
+      "email": "carteremma@miller.com",
+      "phone": "(322)207-4036",
+      "extension": "409"
+    },
+    "status": "Inactive",
+    "shifts": ["Evening"],
+    "hire_date": "1978-07-10",
+    "experience": "9 years",
+    "supervisor": "John Welch",
+    "location": "Dayside Branch",
+    "performance": {
+      "avg_call_duration": "4m 15s",
+      "total_calls": 549,
+      "missed_calls": 21,
+      "resolved_calls": 528,
+      "call_rating_avg": 4.8,
+      "call_distribution": {
+        "morning": 240,
+        "evening": 174
+      }
+    },
+    "activity": {
+      "last_login": "2008-07-03T03:39:01",
+      "last_call_time": "1988-11-12T23:20:25",
+      "break_time_today": "37m",
+      "active_time_today": "5h 32m"
+    },
+    "skills": [
+      "Technical Support",
+      "Crisis Management",
+      "Bilingual (English, Spanish)"
+    ],
+    "notes": [
+      {
+        "date": "1976-01-14",
+        "added_by": "Admin",
+        "content": "Partner fine key who everything lead everyone."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C676",
+        "date": "1975-01-16",
+        "duration": "4m 56s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C147",
+        "date": "1987-11-13",
+        "duration": "5m 31s",
+        "status": "Missed",
+        "rating": null
+      },
+      {
+        "call_id": "C488",
+        "date": "2008-06-14",
+        "duration": "2m 16s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C462",
+        "date": "2003-05-26",
+        "duration": "3m 46s",
+        "status": "Missed",
+        "rating": null
+      },
+      {
+        "call_id": "C314",
+        "date": "1992-04-05",
+        "duration": "2m 18s",
+        "status": "Missed",
+        "rating": 4
+      },
+      {
+        "call_id": "C740",
+        "date": "2019-10-29",
+        "duration": "4m 58s",
+        "status": "Resolved",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Amanda Lane",
+    "profile_image": "https://placekitten.com/844/334",
+    "role": "Agent",
+    "department": "Surgery",
+    "contact": {
+      "email": "ghall@gmail.com",
+      "phone": "927.244.3932x42807",
+      "extension": "909"
+    },
+    "status": "Inactive",
+    "shifts": ["Night"],
+    "hire_date": "1996-07-26",
+    "experience": "10 years",
+    "supervisor": "Abigail Johnson",
+    "location": "South Mariatown Branch",
+    "performance": {
+      "avg_call_duration": "3m 32s",
+      "total_calls": 319,
+      "missed_calls": 16,
+      "resolved_calls": 303,
+      "call_rating_avg": 4.3,
+      "call_distribution": {
+        "morning": 78,
+        "evening": 157
+      }
+    },
+    "activity": {
+      "last_login": "1973-01-24T17:42:35",
+      "last_call_time": "1990-11-26T01:12:24",
+      "break_time_today": "37m",
+      "active_time_today": "4h 1m"
+    },
+    "skills": [
+      "Medical Assistance",
+      "Bilingual (English, Spanish)",
+      "Crisis Management",
+      "Technical Support"
+    ],
+    "notes": [
+      {
+        "date": "1976-01-24",
+        "added_by": "Admin",
+        "content": "Ever away campaign both."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C798",
+        "date": "1978-10-04",
+        "duration": "5m 17s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C420",
+        "date": "2015-09-21",
+        "duration": "2m 12s",
+        "status": "Missed",
+        "rating": 4
+      },
+      {
+        "call_id": "C478",
+        "date": "1990-07-13",
+        "duration": "2m 20s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C651",
+        "date": "2008-01-30",
+        "duration": "4m 50s",
+        "status": "Ongoing",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Judy Jacobs",
+    "profile_image": "https://www.lorempixel.com/850/849",
+    "role": "Agent",
+    "department": "Radiology",
+    "contact": {
+      "email": "juanweaver@lambert.com",
+      "phone": "676-209-5889x167",
+      "extension": "754"
+    },
+    "status": "Inactive",
+    "shifts": ["Evening", "Night"],
+    "hire_date": "1997-10-02",
+    "experience": "10 years",
+    "supervisor": "Yolanda Winters",
+    "location": "Lake Rick Branch",
+    "performance": {
+      "avg_call_duration": "3m 44s",
+      "total_calls": 221,
+      "missed_calls": 5,
+      "resolved_calls": 216,
+      "call_rating_avg": 3.6,
+      "call_distribution": {
+        "morning": 66,
+        "evening": 67
+      }
+    },
+    "activity": {
+      "last_login": "1977-10-30T00:46:13",
+      "last_call_time": "1972-07-07T00:32:11",
+      "break_time_today": "40m",
+      "active_time_today": "6h 14m"
+    },
+    "skills": [
+      "Technical Support",
+      "Bilingual (English, Spanish)",
+      "Crisis Management",
+      "Customer Support"
+    ],
+    "notes": [
+      {
+        "date": "1972-07-06",
+        "added_by": "Admin",
+        "content": "Day former child middle poor our."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C271",
+        "date": "1994-12-03",
+        "duration": "2m 42s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C262",
+        "date": "1980-01-04",
+        "duration": "4m 59s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C886",
+        "date": "1993-02-19",
+        "duration": "3m 47s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C903",
+        "date": "2004-02-26",
+        "duration": "3m 10s",
+        "status": "Ongoing",
+        "rating": 3
+      },
+      {
+        "call_id": "C186",
+        "date": "1974-01-27",
+        "duration": "4m 46s",
+        "status": "Ongoing",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "John Williams",
+    "profile_image": "https://www.lorempixel.com/629/62",
+    "role": "Agent",
+    "department": "Pediatrics",
+    "contact": {
+      "email": "robert68@gmail.com",
+      "phone": "001-137-472-7405x4291",
+      "extension": "464"
+    },
+    "status": "Active",
+    "shifts": ["Evening", "Night"],
+    "hire_date": "2018-12-23",
+    "experience": "1 years",
+    "supervisor": "Gerald Riley DDS",
+    "location": "West Shelley Branch",
+    "performance": {
+      "avg_call_duration": "3m 59s",
+      "total_calls": 299,
+      "missed_calls": 20,
+      "resolved_calls": 279,
+      "call_rating_avg": 4.0,
+      "call_distribution": {
+        "morning": 65,
+        "evening": 84
+      }
+    },
+    "activity": {
+      "last_login": "2009-10-20T20:40:44",
+      "last_call_time": "1977-01-19T14:42:51",
+      "break_time_today": "33m",
+      "active_time_today": "6h 25m"
+    },
+    "skills": ["Technical Support", "Customer Support"],
+    "notes": [
+      {
+        "date": "1985-02-17",
+        "added_by": "Admin",
+        "content": "Employee run truth trial high large respond."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C222",
+        "date": "2011-08-08",
+        "duration": "5m 48s",
+        "status": "Resolved",
+        "rating": 5
+      },
+      {
+        "call_id": "C546",
+        "date": "1990-04-03",
+        "duration": "3m 25s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C539",
+        "date": "1971-10-13",
+        "duration": "4m 20s",
+        "status": "Resolved",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Shawn Campos",
+    "profile_image": "https://dummyimage.com/179x42",
+    "role": "Agent",
+    "department": "Neurology",
+    "contact": {
+      "email": "vhughes@collins.com",
+      "phone": "001-999-541-0208x789",
+      "extension": "368"
+    },
+    "status": "Active",
+    "shifts": ["Evening", "Night"],
+    "hire_date": "1992-10-01",
+    "experience": "5 years",
+    "supervisor": "Elizabeth Russell",
+    "location": "West Jeffreytown Branch",
+    "performance": {
+      "avg_call_duration": "2m 50s",
+      "total_calls": 900,
+      "missed_calls": 85,
+      "resolved_calls": 815,
+      "call_rating_avg": 3.6,
+      "call_distribution": {
+        "morning": 226,
+        "evening": 318
+      }
+    },
+    "activity": {
+      "last_login": "1999-12-19T03:25:07",
+      "last_call_time": "2016-08-25T00:10:02",
+      "break_time_today": "20m",
+      "active_time_today": "7h 11m"
+    },
+    "skills": [
+      "Crisis Management",
+      "Customer Support",
+      "Bilingual (English, Spanish)"
+    ],
+    "notes": [
+      {
+        "date": "1979-09-15",
+        "added_by": "Admin",
+        "content": "Soon when security there."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C256",
+        "date": "1998-03-19",
+        "duration": "3m 47s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C805",
+        "date": "2000-11-01",
+        "duration": "3m 36s",
+        "status": "Resolved",
+        "rating": null
+      },
+      {
+        "call_id": "C501",
+        "date": "1988-11-30",
+        "duration": "5m 18s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C424",
+        "date": "1997-05-12",
+        "duration": "4m 29s",
+        "status": "Resolved",
+        "rating": null
+      },
+      {
+        "call_id": "C425",
+        "date": "2023-03-22",
+        "duration": "5m 38s",
+        "status": "Resolved",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Wyatt Baker",
+    "profile_image": "https://dummyimage.com/151x968",
+    "role": "Agent",
+    "department": "Neurology",
+    "contact": {
+      "email": "garrettsteven@hotmail.com",
+      "phone": "214-141-5973x11454",
+      "extension": "517"
+    },
+    "status": "Inactive",
+    "shifts": ["Morning", "Evening"],
+    "hire_date": "1984-11-13",
+    "experience": "10 years",
+    "supervisor": "Emily Brown",
+    "location": "Port Matthew Branch",
+    "performance": {
+      "avg_call_duration": "2m 11s",
+      "total_calls": 338,
+      "missed_calls": 16,
+      "resolved_calls": 322,
+      "call_rating_avg": 4.0,
+      "call_distribution": {
+        "morning": 153,
+        "evening": 78
+      }
+    },
+    "activity": {
+      "last_login": "1985-03-17T19:07:10",
+      "last_call_time": "2025-01-13T22:11:20",
+      "break_time_today": "12m",
+      "active_time_today": "7h 57m"
+    },
+    "skills": [
+      "Medical Assistance",
+      "Technical Support",
+      "Customer Support",
+      "Crisis Management"
+    ],
+    "notes": [
+      {
+        "date": "1989-06-19",
+        "added_by": "Admin",
+        "content": "Minute close protect."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C173",
+        "date": "1980-05-18",
+        "duration": "5m 36s",
+        "status": "Ongoing",
+        "rating": 3
+      },
+      {
+        "call_id": "C369",
+        "date": "1976-06-12",
+        "duration": "3m 54s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C612",
+        "date": "1982-03-09",
+        "duration": "5m 27s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C666",
+        "date": "1971-10-16",
+        "duration": "4m 28s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C821",
+        "date": "2020-08-13",
+        "duration": "3m 38s",
+        "status": "Resolved",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Mrs. Maria Cummings",
+    "profile_image": "https://www.lorempixel.com/1016/218",
+    "role": "Agent",
+    "department": "General Medicine",
+    "contact": {
+      "email": "palmermaria@jones-richardson.org",
+      "phone": "476.440.2443x43965",
+      "extension": "876"
+    },
+    "status": "Inactive",
+    "shifts": ["Morning", "Night"],
+    "hire_date": "2020-08-26",
+    "experience": "3 years",
+    "supervisor": "Shawn Barnett",
+    "location": "Tamaraview Branch",
+    "performance": {
+      "avg_call_duration": "4m 53s",
+      "total_calls": 801,
+      "missed_calls": 23,
+      "resolved_calls": 778,
+      "call_rating_avg": 3.7,
+      "call_distribution": {
+        "morning": 309,
+        "evening": 371
+      }
+    },
+    "activity": {
+      "last_login": "2005-08-08T18:44:21",
+      "last_call_time": "1993-05-29T00:41:48",
+      "break_time_today": "31m",
+      "active_time_today": "5h 27m"
+    },
+    "skills": [
+      "Customer Support",
+      "Technical Support",
+      "Medical Assistance",
+      "Crisis Management"
+    ],
+    "notes": [
+      {
+        "date": "2024-06-07",
+        "added_by": "Admin",
+        "content": "Politics trouble movement child happy figure."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C132",
+        "date": "1971-01-18",
+        "duration": "2m 42s",
+        "status": "Resolved",
+        "rating": null
+      },
+      {
+        "call_id": "C989",
+        "date": "1980-04-11",
+        "duration": "2m 45s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C969",
+        "date": "2024-10-18",
+        "duration": "2m 42s",
+        "status": "Resolved",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Morgan Luna",
+    "profile_image": "https://placeimg.com/886/857/any",
+    "role": "Agent",
+    "department": "General Medicine",
+    "contact": {
+      "email": "garydominguez@yahoo.com",
+      "phone": "+1-371-609-7408x3273",
+      "extension": "637"
+    },
+    "status": "Active",
+    "shifts": ["Night"],
+    "hire_date": "2021-12-17",
+    "experience": "4 years",
+    "supervisor": "Troy Ayala",
+    "location": "Johnsonport Branch",
+    "performance": {
+      "avg_call_duration": "2m 57s",
+      "total_calls": 799,
+      "missed_calls": 60,
+      "resolved_calls": 739,
+      "call_rating_avg": 4.9,
+      "call_distribution": {
+        "morning": 64,
+        "evening": 184
+      }
+    },
+    "activity": {
+      "last_login": "1990-09-22T01:31:21",
+      "last_call_time": "1985-09-30T22:44:23",
+      "break_time_today": "13m",
+      "active_time_today": "6h 16m"
+    },
+    "skills": ["Customer Support", "Bilingual (English, Spanish)"],
+    "notes": [
+      {
+        "date": "1976-10-02",
+        "added_by": "Admin",
+        "content": "Voice main almost health remain agreement do."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C901",
+        "date": "1982-02-04",
+        "duration": "3m 43s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C830",
+        "date": "2002-12-10",
+        "duration": "2m 43s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C342",
+        "date": "1986-07-02",
+        "duration": "5m 11s",
+        "status": "Ongoing",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Jeffrey Buck",
+    "profile_image": "https://placeimg.com/585/216/any",
+    "role": "Agent",
+    "department": "General Medicine",
+    "contact": {
+      "email": "mwalker@mahoney-green.com",
+      "phone": "918-575-4149",
+      "extension": "391"
+    },
+    "status": "Active",
+    "shifts": ["Morning"],
+    "hire_date": "1991-01-25",
+    "experience": "3 years",
+    "supervisor": "Michael Gonzalez",
+    "location": "Jordanfurt Branch",
+    "performance": {
+      "avg_call_duration": "5m 34s",
+      "total_calls": 649,
+      "missed_calls": 38,
+      "resolved_calls": 611,
+      "call_rating_avg": 4.2,
+      "call_distribution": {
+        "morning": 56,
+        "evening": 277
+      }
+    },
+    "activity": {
+      "last_login": "2003-10-18T08:35:05",
+      "last_call_time": "2000-12-25T16:40:17",
+      "break_time_today": "21m",
+      "active_time_today": "8h 47m"
+    },
+    "skills": ["Crisis Management", "Bilingual (English, Spanish)"],
+    "notes": [
+      {
+        "date": "2005-02-11",
+        "added_by": "Admin",
+        "content": "Kind least close ever."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C533",
+        "date": "1970-11-19",
+        "duration": "4m 31s",
+        "status": "Ongoing",
+        "rating": 3
+      },
+      {
+        "call_id": "C939",
+        "date": "1999-05-14",
+        "duration": "4m 29s",
+        "status": "Resolved",
+        "rating": 5
+      },
+      {
+        "call_id": "C488",
+        "date": "2008-12-19",
+        "duration": "2m 56s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C372",
+        "date": "2009-11-26",
+        "duration": "5m 39s",
+        "status": "Missed",
+        "rating": 5
+      },
+      {
+        "call_id": "C649",
+        "date": "1972-09-27",
+        "duration": "2m 22s",
+        "status": "Resolved",
+        "rating": null
+      },
+      {
+        "call_id": "C698",
+        "date": "1993-04-01",
+        "duration": "3m 49s",
+        "status": "Missed",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Charles Mcdonald",
+    "profile_image": "https://placekitten.com/1/105",
+    "role": "Agent",
+    "department": "ICU",
+    "contact": {
+      "email": "timothy82@yahoo.com",
+      "phone": "+1-025-239-6340x199",
+      "extension": "741"
+    },
+    "status": "Inactive",
+    "shifts": ["Night", "Evening"],
+    "hire_date": "1996-08-03",
+    "experience": "8 years",
+    "supervisor": "Mary West",
+    "location": "Port Paulahaven Branch",
+    "performance": {
+      "avg_call_duration": "4m 53s",
+      "total_calls": 806,
+      "missed_calls": 42,
+      "resolved_calls": 764,
+      "call_rating_avg": 4.5,
+      "call_distribution": {
+        "morning": 55,
+        "evening": 393
+      }
+    },
+    "activity": {
+      "last_login": "1998-06-27T19:39:48",
+      "last_call_time": "1997-07-16T02:50:13",
+      "break_time_today": "10m",
+      "active_time_today": "5h 18m"
+    },
+    "skills": [
+      "Technical Support",
+      "Bilingual (English, Spanish)",
+      "Medical Assistance"
+    ],
+    "notes": [
+      {
+        "date": "2000-08-31",
+        "added_by": "Admin",
+        "content": "Size popular relate family low pattern at."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C926",
+        "date": "2007-12-30",
+        "duration": "2m 19s",
+        "status": "Ongoing",
+        "rating": 3
+      },
+      {
+        "call_id": "C134",
+        "date": "2018-09-02",
+        "duration": "3m 58s",
+        "status": "Resolved",
+        "rating": null
+      },
+      {
+        "call_id": "C426",
+        "date": "1977-03-22",
+        "duration": "5m 30s",
+        "status": "Missed",
+        "rating": 4
+      },
+      {
+        "call_id": "C511",
+        "date": "2001-05-11",
+        "duration": "4m 54s",
+        "status": "Missed",
+        "rating": 5
+      },
+      {
+        "call_id": "C726",
+        "date": "1976-09-08",
+        "duration": "4m 55s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C732",
+        "date": "1981-02-19",
+        "duration": "2m 15s",
+        "status": "Missed",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Adam Brewer",
+    "profile_image": "https://www.lorempixel.com/478/284",
+    "role": "Agent",
+    "department": "Surgery",
+    "contact": {
+      "email": "adammcclure@gmail.com",
+      "phone": "001-930-763-1993x511",
+      "extension": "243"
+    },
+    "status": "Inactive",
+    "shifts": ["Evening", "Night"],
+    "hire_date": "2013-01-17",
+    "experience": "1 years",
+    "supervisor": "Jeffrey Price",
+    "location": "Alvarezberg Branch",
+    "performance": {
+      "avg_call_duration": "3m 49s",
+      "total_calls": 852,
+      "missed_calls": 31,
+      "resolved_calls": 821,
+      "call_rating_avg": 5.0,
+      "call_distribution": {
+        "morning": 221,
+        "evening": 278
+      }
+    },
+    "activity": {
+      "last_login": "2002-12-11T05:29:06",
+      "last_call_time": "1989-07-24T02:20:55",
+      "break_time_today": "34m",
+      "active_time_today": "5h 40m"
+    },
+    "skills": ["Customer Support", "Crisis Management", "Technical Support"],
+    "notes": [
+      {
+        "date": "1973-09-20",
+        "added_by": "Admin",
+        "content": "Thought environmental that network few truth unit."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C520",
+        "date": "1975-06-07",
+        "duration": "3m 39s",
+        "status": "Ongoing",
+        "rating": 3
+      },
+      {
+        "call_id": "C215",
+        "date": "1999-12-16",
+        "duration": "5m 50s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C869",
+        "date": "1989-03-10",
+        "duration": "4m 20s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C977",
+        "date": "1993-08-13",
+        "duration": "5m 25s",
+        "status": "Missed",
+        "rating": 4
+      },
+      {
+        "call_id": "C243",
+        "date": "1979-12-20",
+        "duration": "3m 46s",
+        "status": "Resolved",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Mr. Scott Jarvis",
+    "profile_image": "https://placeimg.com/479/283/any",
+    "role": "Agent",
+    "department": "Emergency",
+    "contact": {
+      "email": "curtisdavid@gmail.com",
+      "phone": "433.915.3579",
+      "extension": "572"
+    },
+    "status": "Inactive",
+    "shifts": ["Night", "Morning"],
+    "hire_date": "1993-12-06",
+    "experience": "10 years",
+    "supervisor": "Joseph Ayala",
+    "location": "Hillchester Branch",
+    "performance": {
+      "avg_call_duration": "5m 42s",
+      "total_calls": 933,
+      "missed_calls": 65,
+      "resolved_calls": 868,
+      "call_rating_avg": 4.1,
+      "call_distribution": {
+        "morning": 268,
+        "evening": 80
+      }
+    },
+    "activity": {
+      "last_login": "1986-10-31T06:01:20",
+      "last_call_time": "2012-02-20T19:19:18",
+      "break_time_today": "28m",
+      "active_time_today": "5h 3m"
+    },
+    "skills": [
+      "Customer Support",
+      "Crisis Management",
+      "Bilingual (English, Spanish)",
+      "Medical Assistance"
+    ],
+    "notes": [
+      {
+        "date": "2012-07-07",
+        "added_by": "Admin",
+        "content": "History green beat capital whatever mother."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C253",
+        "date": "2004-01-28",
+        "duration": "5m 35s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C315",
+        "date": "2000-06-15",
+        "duration": "4m 36s",
+        "status": "Ongoing",
+        "rating": 3
+      },
+      {
+        "call_id": "C482",
+        "date": "1995-07-16",
+        "duration": "5m 17s",
+        "status": "Missed",
+        "rating": 4
+      },
+      {
+        "call_id": "C261",
+        "date": "2013-12-18",
+        "duration": "5m 26s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C192",
+        "date": "1980-10-04",
+        "duration": "5m 27s",
+        "status": "Ongoing",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Terry Page",
+    "profile_image": "https://placeimg.com/12/624/any",
+    "role": "Agent",
+    "department": "Cardiology",
+    "contact": {
+      "email": "rperez@bright.com",
+      "phone": "001-611-822-8089x1163",
+      "extension": "633"
+    },
+    "status": "Active",
+    "shifts": ["Evening", "Night"],
+    "hire_date": "2013-07-25",
+    "experience": "7 years",
+    "supervisor": "Jeremy Acosta",
+    "location": "Paulview Branch",
+    "performance": {
+      "avg_call_duration": "3m 50s",
+      "total_calls": 967,
+      "missed_calls": 82,
+      "resolved_calls": 885,
+      "call_rating_avg": 4.2,
+      "call_distribution": {
+        "morning": 482,
+        "evening": 322
+      }
+    },
+    "activity": {
+      "last_login": "2024-10-28T15:33:20",
+      "last_call_time": "2003-10-25T19:30:21",
+      "break_time_today": "44m",
+      "active_time_today": "4h 5m"
+    },
+    "skills": [
+      "Bilingual (English, Spanish)",
+      "Medical Assistance",
+      "Crisis Management",
+      "Customer Support"
+    ],
+    "notes": [
+      {
+        "date": "2003-03-28",
+        "added_by": "Admin",
+        "content": "Argue purpose Congress because economy."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C785",
+        "date": "2016-05-21",
+        "duration": "4m 52s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C631",
+        "date": "2017-12-16",
+        "duration": "5m 21s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C287",
+        "date": "1996-03-28",
+        "duration": "3m 13s",
+        "status": "Missed",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Leslie Bush",
+    "profile_image": "https://dummyimage.com/629x1005",
+    "role": "Agent",
+    "department": "Cardiology",
+    "contact": {
+      "email": "barbara87@yahoo.com",
+      "phone": "(316)640-2301x21854",
+      "extension": "873"
+    },
+    "status": "Active",
+    "shifts": ["Morning"],
+    "hire_date": "1985-11-11",
+    "experience": "2 years",
+    "supervisor": "Kevin Vasquez",
+    "location": "Wardmouth Branch",
+    "performance": {
+      "avg_call_duration": "2m 41s",
+      "total_calls": 827,
+      "missed_calls": 41,
+      "resolved_calls": 786,
+      "call_rating_avg": 4.1,
+      "call_distribution": {
+        "morning": 370,
+        "evening": 55
+      }
+    },
+    "activity": {
+      "last_login": "1970-05-28T22:17:55",
+      "last_call_time": "1999-04-11T00:06:34",
+      "break_time_today": "37m",
+      "active_time_today": "6h 32m"
+    },
+    "skills": [
+      "Technical Support",
+      "Bilingual (English, Spanish)",
+      "Medical Assistance",
+      "Customer Support"
+    ],
+    "notes": [
+      {
+        "date": "1999-12-11",
+        "added_by": "Admin",
+        "content": "Staff win check forget claim recent."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C936",
+        "date": "1993-03-27",
+        "duration": "5m 42s",
+        "status": "Resolved",
+        "rating": null
+      },
+      {
+        "call_id": "C564",
+        "date": "1970-12-10",
+        "duration": "5m 54s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C254",
+        "date": "1996-08-15",
+        "duration": "5m 39s",
+        "status": "Missed",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Michael Mcgee",
+    "profile_image": "https://placekitten.com/859/809",
+    "role": "Agent",
+    "department": "Emergency",
+    "contact": {
+      "email": "lauriejones@williamson-edwards.net",
+      "phone": "+1-089-955-7422x844",
+      "extension": "824"
+    },
+    "status": "Inactive",
+    "shifts": ["Evening", "Morning"],
+    "hire_date": "2023-08-22",
+    "experience": "3 years",
+    "supervisor": "Scott Perez",
+    "location": "Judybury Branch",
+    "performance": {
+      "avg_call_duration": "4m 22s",
+      "total_calls": 536,
+      "missed_calls": 15,
+      "resolved_calls": 521,
+      "call_rating_avg": 3.6,
+      "call_distribution": {
+        "morning": 79,
+        "evening": 173
+      }
+    },
+    "activity": {
+      "last_login": "2022-11-17T11:49:30",
+      "last_call_time": "1972-08-25T06:44:05",
+      "break_time_today": "13m",
+      "active_time_today": "4h 11m"
+    },
+    "skills": ["Technical Support", "Customer Support"],
+    "notes": [
+      {
+        "date": "1984-05-15",
+        "added_by": "Admin",
+        "content": "Western throw student appear."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C809",
+        "date": "2023-07-18",
+        "duration": "3m 12s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C111",
+        "date": "1989-11-17",
+        "duration": "2m 23s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C434",
+        "date": "1984-03-30",
+        "duration": "4m 34s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C621",
+        "date": "1994-02-28",
+        "duration": "3m 43s",
+        "status": "Missed",
+        "rating": 5
+      },
+      {
+        "call_id": "C464",
+        "date": "2004-01-26",
+        "duration": "4m 10s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C437",
+        "date": "2022-04-17",
+        "duration": "3m 20s",
+        "status": "Ongoing",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Kathy Griffin",
+    "profile_image": "https://www.lorempixel.com/565/941",
+    "role": "Agent",
+    "department": "General Medicine",
+    "contact": {
+      "email": "tmiller@palmer.com",
+      "phone": "(280)278-5594x835",
+      "extension": "186"
+    },
+    "status": "Inactive",
+    "shifts": ["Morning"],
+    "hire_date": "2007-06-10",
+    "experience": "9 years",
+    "supervisor": "Brandy Farrell",
+    "location": "East Angela Branch",
+    "performance": {
+      "avg_call_duration": "5m 14s",
+      "total_calls": 420,
+      "missed_calls": 6,
+      "resolved_calls": 414,
+      "call_rating_avg": 4.8,
+      "call_distribution": {
+        "morning": 71,
+        "evening": 141
+      }
+    },
+    "activity": {
+      "last_login": "1997-04-08T04:11:31",
+      "last_call_time": "1989-08-28T22:05:41",
+      "break_time_today": "45m",
+      "active_time_today": "8h 49m"
+    },
+    "skills": [
+      "Bilingual (English, Spanish)",
+      "Technical Support",
+      "Crisis Management"
+    ],
+    "notes": [
+      {
+        "date": "1986-02-01",
+        "added_by": "Admin",
+        "content": "Around usually the newspaper."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C630",
+        "date": "1979-06-25",
+        "duration": "3m 27s",
+        "status": "Missed",
+        "rating": 5
+      },
+      {
+        "call_id": "C313",
+        "date": "1980-03-22",
+        "duration": "4m 15s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C301",
+        "date": "2013-01-26",
+        "duration": "2m 19s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C165",
+        "date": "1971-01-13",
+        "duration": "2m 52s",
+        "status": "Missed",
+        "rating": null
+      },
+      {
+        "call_id": "C547",
+        "date": "1992-06-25",
+        "duration": "4m 46s",
+        "status": "Resolved",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "James Ross",
+    "profile_image": "https://www.lorempixel.com/71/587",
+    "role": "Agent",
+    "department": "Emergency",
+    "contact": {
+      "email": "princecarl@andersen.org",
+      "phone": "+1-156-194-7803x6296",
+      "extension": "341"
+    },
+    "status": "Inactive",
+    "shifts": ["Evening"],
+    "hire_date": "1977-12-30",
+    "experience": "1 years",
+    "supervisor": "Roy Henry",
+    "location": "Port Jason Branch",
+    "performance": {
+      "avg_call_duration": "5m 45s",
+      "total_calls": 994,
+      "missed_calls": 41,
+      "resolved_calls": 953,
+      "call_rating_avg": 4.9,
+      "call_distribution": {
+        "morning": 328,
+        "evening": 379
+      }
+    },
+    "activity": {
+      "last_login": "1994-11-17T03:08:18",
+      "last_call_time": "1983-11-10T10:50:15",
+      "break_time_today": "19m",
+      "active_time_today": "4h 53m"
+    },
+    "skills": [
+      "Medical Assistance",
+      "Bilingual (English, Spanish)",
+      "Crisis Management"
+    ],
+    "notes": [
+      {
+        "date": "1981-12-19",
+        "added_by": "Admin",
+        "content": "Share let already available check."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C382",
+        "date": "1979-07-02",
+        "duration": "3m 41s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C883",
+        "date": "1970-05-27",
+        "duration": "2m 26s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C871",
+        "date": "1986-04-18",
+        "duration": "2m 48s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C437",
+        "date": "2004-12-17",
+        "duration": "5m 45s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C727",
+        "date": "1974-05-17",
+        "duration": "5m 24s",
+        "status": "Missed",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "James Cochran",
+    "profile_image": "https://www.lorempixel.com/1002/568",
+    "role": "Agent",
+    "department": "Cardiology",
+    "contact": {
+      "email": "xchan@gmail.com",
+      "phone": "7353989613",
+      "extension": "404"
+    },
+    "status": "Active",
+    "shifts": ["Night"],
+    "hire_date": "2022-11-08",
+    "experience": "7 years",
+    "supervisor": "Benjamin James",
+    "location": "Noahmouth Branch",
+    "performance": {
+      "avg_call_duration": "3m 46s",
+      "total_calls": 284,
+      "missed_calls": 2,
+      "resolved_calls": 282,
+      "call_rating_avg": 4.5,
+      "call_distribution": {
+        "morning": 77,
+        "evening": 53
+      }
+    },
+    "activity": {
+      "last_login": "2015-03-06T16:57:30",
+      "last_call_time": "2020-12-28T05:00:24",
+      "break_time_today": "32m",
+      "active_time_today": "4h 42m"
+    },
+    "skills": [
+      "Technical Support",
+      "Bilingual (English, Spanish)",
+      "Customer Support"
+    ],
+    "notes": [
+      {
+        "date": "1978-06-14",
+        "added_by": "Admin",
+        "content": "College listen huge hear laugh each."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C369",
+        "date": "1999-11-24",
+        "duration": "3m 40s",
+        "status": "Resolved",
+        "rating": 5
+      },
+      {
+        "call_id": "C268",
+        "date": "1973-09-26",
+        "duration": "5m 52s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C587",
+        "date": "1971-05-12",
+        "duration": "2m 31s",
+        "status": "Missed",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Laura Page",
+    "profile_image": "https://www.lorempixel.com/1021/907",
+    "role": "Agent",
+    "department": "Radiology",
+    "contact": {
+      "email": "jerryreed@clark-weber.com",
+      "phone": "2545709138",
+      "extension": "826"
+    },
+    "status": "Inactive",
+    "shifts": ["Evening"],
+    "hire_date": "1978-07-21",
+    "experience": "3 years",
+    "supervisor": "Brenda Brown",
+    "location": "East Benjaminmouth Branch",
+    "performance": {
+      "avg_call_duration": "5m 54s",
+      "total_calls": 724,
+      "missed_calls": 14,
+      "resolved_calls": 710,
+      "call_rating_avg": 4.2,
+      "call_distribution": {
+        "morning": 55,
+        "evening": 254
+      }
+    },
+    "activity": {
+      "last_login": "2004-11-27T18:27:05",
+      "last_call_time": "2018-08-31T03:25:45",
+      "break_time_today": "41m",
+      "active_time_today": "6h 11m"
+    },
+    "skills": [
+      "Technical Support",
+      "Bilingual (English, Spanish)",
+      "Customer Support"
+    ],
+    "notes": [
+      {
+        "date": "2004-02-06",
+        "added_by": "Admin",
+        "content": "Phone before expert pretty early white."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C928",
+        "date": "1994-03-06",
+        "duration": "4m 22s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C137",
+        "date": "1992-11-27",
+        "duration": "2m 42s",
+        "status": "Missed",
+        "rating": 5
+      },
+      {
+        "call_id": "C646",
+        "date": "2020-03-05",
+        "duration": "2m 34s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C888",
+        "date": "2007-07-10",
+        "duration": "2m 34s",
+        "status": "Missed",
+        "rating": 5
+      },
+      {
+        "call_id": "C207",
+        "date": "2016-01-02",
+        "duration": "3m 21s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C494",
+        "date": "1972-03-13",
+        "duration": "5m 12s",
+        "status": "Resolved",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Jeffrey Boone",
+    "profile_image": "https://placeimg.com/233/842/any",
+    "role": "Agent",
+    "department": "Cardiology",
+    "contact": {
+      "email": "gary36@gmail.com",
+      "phone": "623-652-2437",
+      "extension": "511"
+    },
+    "status": "Inactive",
+    "shifts": ["Evening"],
+    "hire_date": "1977-10-24",
+    "experience": "2 years",
+    "supervisor": "Jerry Dunn",
+    "location": "Murphyview Branch",
+    "performance": {
+      "avg_call_duration": "4m 56s",
+      "total_calls": 422,
+      "missed_calls": 30,
+      "resolved_calls": 392,
+      "call_rating_avg": 4.7,
+      "call_distribution": {
+        "morning": 193,
+        "evening": 134
+      }
+    },
+    "activity": {
+      "last_login": "1972-02-23T14:38:30",
+      "last_call_time": "2023-10-29T19:36:47",
+      "break_time_today": "28m",
+      "active_time_today": "5h 0m"
+    },
+    "skills": ["Crisis Management", "Medical Assistance"],
+    "notes": [
+      {
+        "date": "1978-08-23",
+        "added_by": "Admin",
+        "content": "Exist near buy."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C451",
+        "date": "1972-09-03",
+        "duration": "4m 51s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C130",
+        "date": "1985-11-10",
+        "duration": "2m 31s",
+        "status": "Missed",
+        "rating": null
+      },
+      {
+        "call_id": "C568",
+        "date": "1992-09-28",
+        "duration": "5m 27s",
+        "status": "Ongoing",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Robert Harvey",
+    "profile_image": "https://placeimg.com/145/627/any",
+    "role": "Agent",
+    "department": "ICU",
+    "contact": {
+      "email": "nicole92@chandler.com",
+      "phone": "001-128-889-8973x254",
+      "extension": "931"
+    },
+    "status": "Inactive",
+    "shifts": ["Night"],
+    "hire_date": "1997-05-30",
+    "experience": "8 years",
+    "supervisor": "Nicole Cooper",
+    "location": "Port Denise Branch",
+    "performance": {
+      "avg_call_duration": "5m 31s",
+      "total_calls": 268,
+      "missed_calls": 5,
+      "resolved_calls": 263,
+      "call_rating_avg": 4.8,
+      "call_distribution": {
+        "morning": 73,
+        "evening": 127
+      }
+    },
+    "activity": {
+      "last_login": "2019-04-23T00:36:11",
+      "last_call_time": "1986-10-22T13:48:47",
+      "break_time_today": "43m",
+      "active_time_today": "4h 6m"
+    },
+    "skills": ["Bilingual (English, Spanish)", "Medical Assistance"],
+    "notes": [
+      {
+        "date": "2003-11-08",
+        "added_by": "Admin",
+        "content": "Eat off situation lead fear before open."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C194",
+        "date": "1974-12-17",
+        "duration": "3m 35s",
+        "status": "Resolved",
+        "rating": 5
+      },
+      {
+        "call_id": "C975",
+        "date": "1984-04-11",
+        "duration": "5m 49s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C324",
+        "date": "1995-06-08",
+        "duration": "5m 31s",
+        "status": "Resolved",
+        "rating": 5
+      },
+      {
+        "call_id": "C172",
+        "date": "1996-05-09",
+        "duration": "2m 17s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C100",
+        "date": "2000-02-21",
+        "duration": "5m 26s",
+        "status": "Resolved",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Mary Robbins",
+    "profile_image": "https://dummyimage.com/803x1006",
+    "role": "Agent",
+    "department": "Cardiology",
+    "contact": {
+      "email": "walkerfaith@yahoo.com",
+      "phone": "(154)326-5284",
+      "extension": "414"
+    },
+    "status": "Inactive",
+    "shifts": ["Evening", "Night"],
+    "hire_date": "2024-12-10",
+    "experience": "1 years",
+    "supervisor": "Sabrina Martinez",
+    "location": "West Stephaniemouth Branch",
+    "performance": {
+      "avg_call_duration": "2m 21s",
+      "total_calls": 546,
+      "missed_calls": 36,
+      "resolved_calls": 510,
+      "call_rating_avg": 4.0,
+      "call_distribution": {
+        "morning": 130,
+        "evening": 200
+      }
+    },
+    "activity": {
+      "last_login": "1980-02-12T19:31:52",
+      "last_call_time": "1979-07-05T22:00:08",
+      "break_time_today": "16m",
+      "active_time_today": "8h 44m"
+    },
+    "skills": ["Technical Support", "Customer Support"],
+    "notes": [
+      {
+        "date": "2008-03-27",
+        "added_by": "Admin",
+        "content": "Receive occur prepare senior speak draw hair."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C202",
+        "date": "2002-01-16",
+        "duration": "4m 50s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C351",
+        "date": "2015-10-20",
+        "duration": "5m 13s",
+        "status": "Missed",
+        "rating": null
+      },
+      {
+        "call_id": "C280",
+        "date": "1990-03-01",
+        "duration": "5m 34s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C265",
+        "date": "1974-07-13",
+        "duration": "4m 52s",
+        "status": "Missed",
+        "rating": null
+      },
+      {
+        "call_id": "C978",
+        "date": "1978-07-22",
+        "duration": "4m 39s",
+        "status": "Ongoing",
+        "rating": 3
+      },
+      {
+        "call_id": "C725",
+        "date": "1997-08-28",
+        "duration": "2m 16s",
+        "status": "Ongoing",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Oscar Ramirez",
+    "profile_image": "https://placekitten.com/895/338",
+    "role": "Agent",
+    "department": "Radiology",
+    "contact": {
+      "email": "colongarrett@wheeler-smith.com",
+      "phone": "1497229986",
+      "extension": "849"
+    },
+    "status": "Active",
+    "shifts": ["Morning", "Night"],
+    "hire_date": "2015-06-16",
+    "experience": "1 years",
+    "supervisor": "Janet Johnson",
+    "location": "Smallchester Branch",
+    "performance": {
+      "avg_call_duration": "2m 12s",
+      "total_calls": 299,
+      "missed_calls": 0,
+      "resolved_calls": 299,
+      "call_rating_avg": 5.0,
+      "call_distribution": {
+        "morning": 123,
+        "evening": 70
+      }
+    },
+    "activity": {
+      "last_login": "1986-09-26T21:08:25",
+      "last_call_time": "2011-02-25T04:49:15",
+      "break_time_today": "13m",
+      "active_time_today": "4h 30m"
+    },
+    "skills": [
+      "Customer Support",
+      "Bilingual (English, Spanish)",
+      "Crisis Management"
+    ],
+    "notes": [
+      {
+        "date": "1996-07-01",
+        "added_by": "Admin",
+        "content": "International mean meet debate quickly participant option step."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C902",
+        "date": "1971-02-20",
+        "duration": "2m 10s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C795",
+        "date": "1993-01-26",
+        "duration": "3m 48s",
+        "status": "Missed",
+        "rating": 5
+      },
+      {
+        "call_id": "C137",
+        "date": "1972-06-01",
+        "duration": "2m 50s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C591",
+        "date": "2022-07-03",
+        "duration": "4m 38s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C180",
+        "date": "2004-09-06",
+        "duration": "5m 11s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C245",
+        "date": "2007-05-28",
+        "duration": "5m 29s",
+        "status": "Ongoing",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Timothy Rivera",
+    "profile_image": "https://placekitten.com/65/337",
+    "role": "Agent",
+    "department": "Radiology",
+    "contact": {
+      "email": "lmckay@hotmail.com",
+      "phone": "621-075-8268x9973",
+      "extension": "697"
+    },
+    "status": "Active",
+    "shifts": ["Morning"],
+    "hire_date": "1978-05-29",
+    "experience": "5 years",
+    "supervisor": "Richard Estrada",
+    "location": "New Kristen Branch",
+    "performance": {
+      "avg_call_duration": "2m 12s",
+      "total_calls": 747,
+      "missed_calls": 57,
+      "resolved_calls": 690,
+      "call_rating_avg": 4.8,
+      "call_distribution": {
+        "morning": 169,
+        "evening": 148
+      }
+    },
+    "activity": {
+      "last_login": "1988-02-08T04:54:26",
+      "last_call_time": "1995-12-08T08:01:39",
+      "break_time_today": "17m",
+      "active_time_today": "7h 10m"
+    },
+    "skills": [
+      "Technical Support",
+      "Bilingual (English, Spanish)",
+      "Medical Assistance"
+    ],
+    "notes": [
+      {
+        "date": "1972-05-22",
+        "added_by": "Admin",
+        "content": "Build give include small finally west."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C598",
+        "date": "1986-03-29",
+        "duration": "4m 25s",
+        "status": "Missed",
+        "rating": 5
+      },
+      {
+        "call_id": "C628",
+        "date": "1971-09-06",
+        "duration": "3m 24s",
+        "status": "Missed",
+        "rating": 5
+      },
+      {
+        "call_id": "C559",
+        "date": "2010-05-17",
+        "duration": "2m 29s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C110",
+        "date": "1984-09-30",
+        "duration": "2m 23s",
+        "status": "Missed",
+        "rating": 4
+      },
+      {
+        "call_id": "C761",
+        "date": "2004-06-11",
+        "duration": "4m 12s",
+        "status": "Ongoing",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Christopher Hernandez",
+    "profile_image": "https://placekitten.com/39/356",
+    "role": "Agent",
+    "department": "Neurology",
+    "contact": {
+      "email": "jcook@williams.com",
+      "phone": "922-961-0036x727",
+      "extension": "755"
+    },
+    "status": "Active",
+    "shifts": ["Night", "Evening"],
+    "hire_date": "2010-03-15",
+    "experience": "4 years",
+    "supervisor": "Melinda Griffith",
+    "location": "South Amberbury Branch",
+    "performance": {
+      "avg_call_duration": "2m 47s",
+      "total_calls": 752,
+      "missed_calls": 41,
+      "resolved_calls": 711,
+      "call_rating_avg": 4.7,
+      "call_distribution": {
+        "morning": 201,
+        "evening": 186
+      }
+    },
+    "activity": {
+      "last_login": "1977-04-07T21:54:50",
+      "last_call_time": "2015-10-24T06:06:32",
+      "break_time_today": "36m",
+      "active_time_today": "5h 55m"
+    },
+    "skills": [
+      "Bilingual (English, Spanish)",
+      "Medical Assistance",
+      "Customer Support"
+    ],
+    "notes": [
+      {
+        "date": "1977-05-16",
+        "added_by": "Admin",
+        "content": "Particularly new new scene."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C663",
+        "date": "2007-01-19",
+        "duration": "2m 26s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C715",
+        "date": "1986-02-20",
+        "duration": "5m 26s",
+        "status": "Resolved",
+        "rating": null
+      },
+      {
+        "call_id": "C497",
+        "date": "2000-05-19",
+        "duration": "3m 45s",
+        "status": "Resolved",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Alexander Duncan",
+    "profile_image": "https://placekitten.com/38/947",
+    "role": "Agent",
+    "department": "General Medicine",
+    "contact": {
+      "email": "nicholsonrobert@marsh-osborne.com",
+      "phone": "963-911-2539x54707",
+      "extension": "325"
+    },
+    "status": "Active",
+    "shifts": ["Morning"],
+    "hire_date": "2003-07-10",
+    "experience": "7 years",
+    "supervisor": "Joshua Shepard",
+    "location": "Nataliemouth Branch",
+    "performance": {
+      "avg_call_duration": "3m 26s",
+      "total_calls": 473,
+      "missed_calls": 22,
+      "resolved_calls": 451,
+      "call_rating_avg": 5.0,
+      "call_distribution": {
+        "morning": 177,
+        "evening": 71
+      }
+    },
+    "activity": {
+      "last_login": "2000-04-08T02:31:40",
+      "last_call_time": "2001-01-13T14:42:28",
+      "break_time_today": "20m",
+      "active_time_today": "5h 25m"
+    },
+    "skills": [
+      "Medical Assistance",
+      "Technical Support",
+      "Bilingual (English, Spanish)"
+    ],
+    "notes": [
+      {
+        "date": "2003-10-04",
+        "added_by": "Admin",
+        "content": "Modern pressure finally also hope president beat."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C486",
+        "date": "2014-05-26",
+        "duration": "3m 57s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C763",
+        "date": "2018-02-07",
+        "duration": "4m 24s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C679",
+        "date": "1995-10-03",
+        "duration": "4m 31s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C317",
+        "date": "2021-12-29",
+        "duration": "5m 31s",
+        "status": "Missed",
+        "rating": 4
+      },
+      {
+        "call_id": "C645",
+        "date": "1982-03-26",
+        "duration": "2m 55s",
+        "status": "Resolved",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Julie Wong",
+    "profile_image": "https://dummyimage.com/596x748",
+    "role": "Agent",
+    "department": "Pediatrics",
+    "contact": {
+      "email": "karenbailey@hotmail.com",
+      "phone": "(602)272-6283",
+      "extension": "236"
+    },
+    "status": "Active",
+    "shifts": ["Night", "Morning"],
+    "hire_date": "2008-04-08",
+    "experience": "8 years",
+    "supervisor": "Joanna Pitts",
+    "location": "Port Stephanie Branch",
+    "performance": {
+      "avg_call_duration": "2m 30s",
+      "total_calls": 231,
+      "missed_calls": 19,
+      "resolved_calls": 212,
+      "call_rating_avg": 4.7,
+      "call_distribution": {
+        "morning": 103,
+        "evening": 58
+      }
+    },
+    "activity": {
+      "last_login": "1974-06-24T00:24:05",
+      "last_call_time": "1979-06-04T05:27:39",
+      "break_time_today": "31m",
+      "active_time_today": "4h 35m"
+    },
+    "skills": ["Medical Assistance", "Technical Support"],
+    "notes": [
+      {
+        "date": "1986-03-07",
+        "added_by": "Admin",
+        "content": "Future country arrive company trouble."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C916",
+        "date": "1978-09-12",
+        "duration": "2m 25s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C956",
+        "date": "2013-04-09",
+        "duration": "4m 38s",
+        "status": "Ongoing",
+        "rating": 3
+      },
+      {
+        "call_id": "C530",
+        "date": "1973-08-21",
+        "duration": "2m 22s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C319",
+        "date": "1998-02-15",
+        "duration": "5m 55s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C233",
+        "date": "1987-07-18",
+        "duration": "4m 56s",
+        "status": "Missed",
+        "rating": 5
+      },
+      {
+        "call_id": "C372",
+        "date": "1995-10-07",
+        "duration": "4m 17s",
+        "status": "Missed",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Juan Adams",
+    "profile_image": "https://placeimg.com/203/386/any",
+    "role": "Agent",
+    "department": "Neurology",
+    "contact": {
+      "email": "douglaswoods@yahoo.com",
+      "phone": "001-268-759-1711x168",
+      "extension": "907"
+    },
+    "status": "Active",
+    "shifts": ["Evening"],
+    "hire_date": "1988-12-29",
+    "experience": "3 years",
+    "supervisor": "Dawn Lucas",
+    "location": "Benjaminshire Branch",
+    "performance": {
+      "avg_call_duration": "4m 13s",
+      "total_calls": 943,
+      "missed_calls": 47,
+      "resolved_calls": 896,
+      "call_rating_avg": 3.7,
+      "call_distribution": {
+        "morning": 372,
+        "evening": 466
+      }
+    },
+    "activity": {
+      "last_login": "2009-09-09T03:49:35",
+      "last_call_time": "1990-03-10T01:29:59",
+      "break_time_today": "18m",
+      "active_time_today": "7h 0m"
+    },
+    "skills": ["Customer Support", "Crisis Management"],
+    "notes": [
+      {
+        "date": "1982-01-07",
+        "added_by": "Admin",
+        "content": "Weight about bag include positive."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C261",
+        "date": "1993-06-17",
+        "duration": "4m 44s",
+        "status": "Resolved",
+        "rating": 5
+      },
+      {
+        "call_id": "C712",
+        "date": "1980-10-03",
+        "duration": "5m 23s",
+        "status": "Missed",
+        "rating": null
+      },
+      {
+        "call_id": "C858",
+        "date": "1980-08-10",
+        "duration": "5m 54s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C759",
+        "date": "1973-11-19",
+        "duration": "2m 46s",
+        "status": "Missed",
+        "rating": 4
+      },
+      {
+        "call_id": "C907",
+        "date": "2008-08-01",
+        "duration": "4m 38s",
+        "status": "Ongoing",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Joseph Phillips",
+    "profile_image": "https://placeimg.com/64/170/any",
+    "role": "Agent",
+    "department": "Radiology",
+    "contact": {
+      "email": "fwright@yahoo.com",
+      "phone": "+1-217-262-9032x649",
+      "extension": "289"
+    },
+    "status": "Active",
+    "shifts": ["Evening", "Night"],
+    "hire_date": "1994-08-14",
+    "experience": "6 years",
+    "supervisor": "Brianna Perez",
+    "location": "North Amberton Branch",
+    "performance": {
+      "avg_call_duration": "4m 37s",
+      "total_calls": 557,
+      "missed_calls": 33,
+      "resolved_calls": 524,
+      "call_rating_avg": 4.8,
+      "call_distribution": {
+        "morning": 70,
+        "evening": 241
+      }
+    },
+    "activity": {
+      "last_login": "2024-07-08T20:20:43",
+      "last_call_time": "2004-07-25T05:14:23",
+      "break_time_today": "26m",
+      "active_time_today": "4h 47m"
+    },
+    "skills": ["Crisis Management", "Medical Assistance"],
+    "notes": [
+      {
+        "date": "1978-11-07",
+        "added_by": "Admin",
+        "content": "Learn let the also lose face a."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C929",
+        "date": "1990-10-14",
+        "duration": "2m 50s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C147",
+        "date": "2019-01-06",
+        "duration": "5m 33s",
+        "status": "Missed",
+        "rating": 5
+      },
+      {
+        "call_id": "C774",
+        "date": "2020-11-01",
+        "duration": "3m 41s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C328",
+        "date": "1989-05-03",
+        "duration": "4m 22s",
+        "status": "Missed",
+        "rating": null
+      },
+      {
+        "call_id": "C764",
+        "date": "1979-04-28",
+        "duration": "5m 43s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C460",
+        "date": "2004-09-22",
+        "duration": "5m 42s",
+        "status": "Ongoing",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Joseph Estrada",
+    "profile_image": "https://dummyimage.com/28x395",
+    "role": "Agent",
+    "department": "Emergency",
+    "contact": {
+      "email": "natalie95@yahoo.com",
+      "phone": "001-778-462-1417",
+      "extension": "196"
+    },
+    "status": "Active",
+    "shifts": ["Night"],
+    "hire_date": "1974-06-29",
+    "experience": "8 years",
+    "supervisor": "Scott Ortiz",
+    "location": "Lake Pamelaport Branch",
+    "performance": {
+      "avg_call_duration": "4m 31s",
+      "total_calls": 763,
+      "missed_calls": 9,
+      "resolved_calls": 754,
+      "call_rating_avg": 3.6,
+      "call_distribution": {
+        "morning": 73,
+        "evening": 183
+      }
+    },
+    "activity": {
+      "last_login": "2017-03-30T08:16:27",
+      "last_call_time": "2011-10-27T02:19:34",
+      "break_time_today": "32m",
+      "active_time_today": "5h 38m"
+    },
+    "skills": [
+      "Customer Support",
+      "Medical Assistance",
+      "Bilingual (English, Spanish)",
+      "Technical Support"
+    ],
+    "notes": [
+      {
+        "date": "2022-03-03",
+        "added_by": "Admin",
+        "content": "Call three bill red inside."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C155",
+        "date": "1976-07-17",
+        "duration": "4m 14s",
+        "status": "Ongoing",
+        "rating": 3
+      },
+      {
+        "call_id": "C778",
+        "date": "1981-07-10",
+        "duration": "5m 59s",
+        "status": "Resolved",
+        "rating": 5
+      },
+      {
+        "call_id": "C705",
+        "date": "1987-07-24",
+        "duration": "3m 31s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C828",
+        "date": "1975-04-27",
+        "duration": "5m 26s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C858",
+        "date": "1986-08-09",
+        "duration": "3m 18s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C509",
+        "date": "1992-12-25",
+        "duration": "3m 14s",
+        "status": "Missed",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Lisa Nguyen",
+    "profile_image": "https://www.lorempixel.com/770/292",
+    "role": "Agent",
+    "department": "Surgery",
+    "contact": {
+      "email": "ecowan@hotmail.com",
+      "phone": "(325)173-8574x070",
+      "extension": "814"
+    },
+    "status": "Active",
+    "shifts": ["Night", "Morning"],
+    "hire_date": "1980-11-18",
+    "experience": "3 years",
+    "supervisor": "Morgan Decker",
+    "location": "Smallport Branch",
+    "performance": {
+      "avg_call_duration": "4m 33s",
+      "total_calls": 315,
+      "missed_calls": 25,
+      "resolved_calls": 290,
+      "call_rating_avg": 3.6,
+      "call_distribution": {
+        "morning": 64,
+        "evening": 77
+      }
+    },
+    "activity": {
+      "last_login": "2023-05-01T00:37:07",
+      "last_call_time": "1977-01-02T08:43:57",
+      "break_time_today": "14m",
+      "active_time_today": "6h 55m"
+    },
+    "skills": [
+      "Customer Support",
+      "Medical Assistance",
+      "Bilingual (English, Spanish)"
+    ],
+    "notes": [
+      {
+        "date": "2004-05-25",
+        "added_by": "Admin",
+        "content": "Quite live particular."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C705",
+        "date": "1992-10-07",
+        "duration": "4m 40s",
+        "status": "Resolved",
+        "rating": 5
+      },
+      {
+        "call_id": "C794",
+        "date": "2012-05-11",
+        "duration": "3m 36s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C257",
+        "date": "2000-10-28",
+        "duration": "2m 44s",
+        "status": "Missed",
+        "rating": 4
+      },
+      {
+        "call_id": "C298",
+        "date": "2016-07-23",
+        "duration": "2m 54s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C867",
+        "date": "2024-12-11",
+        "duration": "2m 38s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C321",
+        "date": "2000-07-09",
+        "duration": "4m 10s",
+        "status": "Resolved",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Lucas Gonzalez",
+    "profile_image": "https://placekitten.com/39/510",
+    "role": "Agent",
+    "department": "ICU",
+    "contact": {
+      "email": "marissa78@gutierrez.com",
+      "phone": "477-759-3713x2751",
+      "extension": "361"
+    },
+    "status": "Inactive",
+    "shifts": ["Evening"],
+    "hire_date": "1974-11-17",
+    "experience": "1 years",
+    "supervisor": "Jodi Dominguez",
+    "location": "Rodneybury Branch",
+    "performance": {
+      "avg_call_duration": "3m 11s",
+      "total_calls": 519,
+      "missed_calls": 10,
+      "resolved_calls": 509,
+      "call_rating_avg": 3.9,
+      "call_distribution": {
+        "morning": 187,
+        "evening": 165
+      }
+    },
+    "activity": {
+      "last_login": "1997-06-08T23:32:31",
+      "last_call_time": "2000-10-02T06:34:45",
+      "break_time_today": "34m",
+      "active_time_today": "4h 37m"
+    },
+    "skills": [
+      "Technical Support",
+      "Bilingual (English, Spanish)",
+      "Crisis Management",
+      "Customer Support"
+    ],
+    "notes": [
+      {
+        "date": "2007-11-25",
+        "added_by": "Admin",
+        "content": "Church however fast subject to present according."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C622",
+        "date": "1980-06-25",
+        "duration": "5m 26s",
+        "status": "Missed",
+        "rating": 5
+      },
+      {
+        "call_id": "C435",
+        "date": "2018-11-13",
+        "duration": "3m 27s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C809",
+        "date": "2004-05-16",
+        "duration": "4m 25s",
+        "status": "Resolved",
+        "rating": 5
+      },
+      {
+        "call_id": "C130",
+        "date": "2004-11-20",
+        "duration": "5m 37s",
+        "status": "Resolved",
+        "rating": 5
+      },
+      {
+        "call_id": "C925",
+        "date": "2001-04-01",
+        "duration": "5m 31s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C241",
+        "date": "2009-06-05",
+        "duration": "2m 25s",
+        "status": "Missed",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Maria Cross",
+    "profile_image": "https://dummyimage.com/360x19",
+    "role": "Agent",
+    "department": "ICU",
+    "contact": {
+      "email": "kendra84@wheeler.com",
+      "phone": "+1-223-524-1577x28238",
+      "extension": "471"
+    },
+    "status": "Active",
+    "shifts": ["Night", "Evening"],
+    "hire_date": "1979-02-17",
+    "experience": "2 years",
+    "supervisor": "Jasmine Hamilton",
+    "location": "East Jason Branch",
+    "performance": {
+      "avg_call_duration": "5m 33s",
+      "total_calls": 336,
+      "missed_calls": 13,
+      "resolved_calls": 323,
+      "call_rating_avg": 3.6,
+      "call_distribution": {
+        "morning": 72,
+        "evening": 80
+      }
+    },
+    "activity": {
+      "last_login": "1972-11-06T17:30:11",
+      "last_call_time": "2010-03-25T14:53:21",
+      "break_time_today": "45m",
+      "active_time_today": "8h 44m"
+    },
+    "skills": [
+      "Bilingual (English, Spanish)",
+      "Customer Support",
+      "Crisis Management"
+    ],
+    "notes": [
+      {
+        "date": "1979-01-10",
+        "added_by": "Admin",
+        "content": "Fall nice artist miss soldier."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C827",
+        "date": "1999-03-11",
+        "duration": "2m 21s",
+        "status": "Missed",
+        "rating": 5
+      },
+      {
+        "call_id": "C911",
+        "date": "2004-07-26",
+        "duration": "2m 11s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C480",
+        "date": "1974-12-04",
+        "duration": "4m 43s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C895",
+        "date": "1985-03-29",
+        "duration": "2m 29s",
+        "status": "Missed",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Derek Williams",
+    "profile_image": "https://placekitten.com/172/645",
+    "role": "Agent",
+    "department": "Pediatrics",
+    "contact": {
+      "email": "michael18@smith.com",
+      "phone": "(107)408-8494x045",
+      "extension": "643"
+    },
+    "status": "Active",
+    "shifts": ["Night", "Evening"],
+    "hire_date": "2022-03-22",
+    "experience": "4 years",
+    "supervisor": "Jeremy Davis",
+    "location": "New Huntertown Branch",
+    "performance": {
+      "avg_call_duration": "2m 41s",
+      "total_calls": 740,
+      "missed_calls": 56,
+      "resolved_calls": 684,
+      "call_rating_avg": 4.6,
+      "call_distribution": {
+        "morning": 272,
+        "evening": 53
+      }
+    },
+    "activity": {
+      "last_login": "1997-01-05T20:44:07",
+      "last_call_time": "1982-03-15T22:03:14",
+      "break_time_today": "32m",
+      "active_time_today": "4h 47m"
+    },
+    "skills": [
+      "Medical Assistance",
+      "Technical Support",
+      "Customer Support",
+      "Crisis Management"
+    ],
+    "notes": [
+      {
+        "date": "1978-09-14",
+        "added_by": "Admin",
+        "content": "Total too cultural hot industry research."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C663",
+        "date": "1984-03-26",
+        "duration": "4m 19s",
+        "status": "Ongoing",
+        "rating": 3
+      },
+      {
+        "call_id": "C722",
+        "date": "2001-04-12",
+        "duration": "4m 11s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C615",
+        "date": "1974-08-22",
+        "duration": "2m 53s",
+        "status": "Missed",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Gregory Ramirez",
+    "profile_image": "https://placekitten.com/386/598",
+    "role": "Agent",
+    "department": "Cardiology",
+    "contact": {
+      "email": "ngarcia@casey-marks.org",
+      "phone": "705.201.4681",
+      "extension": "148"
+    },
+    "status": "Inactive",
+    "shifts": ["Evening", "Morning"],
+    "hire_date": "1977-12-24",
+    "experience": "6 years",
+    "supervisor": "Whitney Meadows",
+    "location": "West Breannafort Branch",
+    "performance": {
+      "avg_call_duration": "2m 44s",
+      "total_calls": 834,
+      "missed_calls": 75,
+      "resolved_calls": 759,
+      "call_rating_avg": 3.5,
+      "call_distribution": {
+        "morning": 409,
+        "evening": 291
+      }
+    },
+    "activity": {
+      "last_login": "1994-10-05T17:37:46",
+      "last_call_time": "2020-03-07T21:14:29",
+      "break_time_today": "23m",
+      "active_time_today": "4h 48m"
+    },
+    "skills": ["Customer Support", "Medical Assistance"],
+    "notes": [
+      {
+        "date": "1988-11-09",
+        "added_by": "Admin",
+        "content": "Poor research begin white nearly do."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C485",
+        "date": "2012-08-22",
+        "duration": "2m 42s",
+        "status": "Resolved",
+        "rating": null
+      },
+      {
+        "call_id": "C119",
+        "date": "1998-11-30",
+        "duration": "4m 38s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C691",
+        "date": "1973-08-29",
+        "duration": "3m 26s",
+        "status": "Resolved",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Christopher Griffith",
+    "profile_image": "https://www.lorempixel.com/608/794",
+    "role": "Agent",
+    "department": "Radiology",
+    "contact": {
+      "email": "gkirk@yahoo.com",
+      "phone": "328-520-2717",
+      "extension": "645"
+    },
+    "status": "Active",
+    "shifts": ["Night", "Evening"],
+    "hire_date": "2005-07-11",
+    "experience": "1 years",
+    "supervisor": "Mark Sims",
+    "location": "Merrittside Branch",
+    "performance": {
+      "avg_call_duration": "5m 27s",
+      "total_calls": 484,
+      "missed_calls": 15,
+      "resolved_calls": 469,
+      "call_rating_avg": 4.8,
+      "call_distribution": {
+        "morning": 213,
+        "evening": 142
+      }
+    },
+    "activity": {
+      "last_login": "1978-07-03T07:28:17",
+      "last_call_time": "1986-02-09T15:01:48",
+      "break_time_today": "42m",
+      "active_time_today": "8h 23m"
+    },
+    "skills": [
+      "Crisis Management",
+      "Medical Assistance",
+      "Technical Support",
+      "Bilingual (English, Spanish)"
+    ],
+    "notes": [
+      {
+        "date": "2016-07-17",
+        "added_by": "Admin",
+        "content": "Field international reality hold statement between commercial."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C465",
+        "date": "1988-07-24",
+        "duration": "5m 10s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C162",
+        "date": "1979-05-27",
+        "duration": "3m 21s",
+        "status": "Ongoing",
+        "rating": 3
+      },
+      {
+        "call_id": "C469",
+        "date": "2016-10-06",
+        "duration": "2m 43s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C945",
+        "date": "1997-06-26",
+        "duration": "5m 56s",
+        "status": "Resolved",
+        "rating": null
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Mary Marshall",
+    "profile_image": "https://placekitten.com/623/427",
+    "role": "Agent",
+    "department": "ICU",
+    "contact": {
+      "email": "cgrimes@king.com",
+      "phone": "(969)619-3553",
+      "extension": "390"
+    },
+    "status": "Inactive",
+    "shifts": ["Evening", "Morning"],
+    "hire_date": "2004-12-17",
+    "experience": "1 years",
+    "supervisor": "Peter George",
+    "location": "Port Robertfort Branch",
+    "performance": {
+      "avg_call_duration": "5m 57s",
+      "total_calls": 635,
+      "missed_calls": 42,
+      "resolved_calls": 593,
+      "call_rating_avg": 3.9,
+      "call_distribution": {
+        "morning": 227,
+        "evening": 118
+      }
+    },
+    "activity": {
+      "last_login": "1988-01-19T00:30:32",
+      "last_call_time": "2007-12-28T14:49:34",
+      "break_time_today": "38m",
+      "active_time_today": "8h 51m"
+    },
+    "skills": ["Customer Support", "Technical Support"],
+    "notes": [
+      {
+        "date": "1991-08-08",
+        "added_by": "Admin",
+        "content": "Movie rule election threat green home."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C768",
+        "date": "2020-02-11",
+        "duration": "4m 35s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C507",
+        "date": "1995-11-22",
+        "duration": "4m 57s",
+        "status": "Missed",
+        "rating": null
+      },
+      {
+        "call_id": "C481",
+        "date": "2016-10-12",
+        "duration": "5m 20s",
+        "status": "Resolved",
+        "rating": 5
+      },
+      {
+        "call_id": "C169",
+        "date": "2000-09-15",
+        "duration": "5m 21s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C174",
+        "date": "2018-03-26",
+        "duration": "5m 12s",
+        "status": "Resolved",
+        "rating": 5
+      },
+      {
+        "call_id": "C665",
+        "date": "1985-07-07",
+        "duration": "4m 34s",
+        "status": "Ongoing",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "James Munoz",
+    "profile_image": "https://placekitten.com/647/707",
+    "role": "Agent",
+    "department": "Emergency",
+    "contact": {
+      "email": "andre18@hotmail.com",
+      "phone": "422.848.2737x6084",
+      "extension": "357"
+    },
+    "status": "Active",
+    "shifts": ["Morning"],
+    "hire_date": "1993-09-01",
+    "experience": "2 years",
+    "supervisor": "Gregory Ryan",
+    "location": "New Bryanborough Branch",
+    "performance": {
+      "avg_call_duration": "2m 30s",
+      "total_calls": 689,
+      "missed_calls": 52,
+      "resolved_calls": 637,
+      "call_rating_avg": 4.0,
+      "call_distribution": {
+        "morning": 196,
+        "evening": 241
+      }
+    },
+    "activity": {
+      "last_login": "2010-09-20T06:57:20",
+      "last_call_time": "1989-05-04T18:05:14",
+      "break_time_today": "38m",
+      "active_time_today": "8h 18m"
+    },
+    "skills": ["Medical Assistance", "Crisis Management"],
+    "notes": [
+      {
+        "date": "1973-01-22",
+        "added_by": "Admin",
+        "content": "Hear test trade property."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C907",
+        "date": "1974-02-22",
+        "duration": "3m 23s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C978",
+        "date": "2016-09-23",
+        "duration": "5m 42s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C767",
+        "date": "1972-10-15",
+        "duration": "5m 57s",
+        "status": "Resolved",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "David Gallagher",
+    "profile_image": "https://placeimg.com/6/163/any",
+    "role": "Agent",
+    "department": "Pediatrics",
+    "contact": {
+      "email": "zacharystone@yahoo.com",
+      "phone": "447.162.4474x7581",
+      "extension": "232"
+    },
+    "status": "Inactive",
+    "shifts": ["Night"],
+    "hire_date": "1986-11-29",
+    "experience": "1 years",
+    "supervisor": "Michael Cantu",
+    "location": "Biancashire Branch",
+    "performance": {
+      "avg_call_duration": "2m 19s",
+      "total_calls": 900,
+      "missed_calls": 57,
+      "resolved_calls": 843,
+      "call_rating_avg": 5.0,
+      "call_distribution": {
+        "morning": 156,
+        "evening": 324
+      }
+    },
+    "activity": {
+      "last_login": "2003-11-15T06:08:01",
+      "last_call_time": "1999-04-10T17:58:48",
+      "break_time_today": "40m",
+      "active_time_today": "6h 7m"
+    },
+    "skills": [
+      "Technical Support",
+      "Crisis Management",
+      "Customer Support",
+      "Medical Assistance"
+    ],
+    "notes": [
+      {
+        "date": "1978-09-27",
+        "added_by": "Admin",
+        "content": "Fall edge body general college own research."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C586",
+        "date": "2012-03-06",
+        "duration": "3m 38s",
+        "status": "Missed",
+        "rating": null
+      },
+      {
+        "call_id": "C777",
+        "date": "2003-12-21",
+        "duration": "3m 26s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C363",
+        "date": "1996-11-10",
+        "duration": "3m 22s",
+        "status": "Ongoing",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Norman Medina",
+    "profile_image": "https://dummyimage.com/609x153",
+    "role": "Agent",
+    "department": "General Medicine",
+    "contact": {
+      "email": "maria61@king-higgins.com",
+      "phone": "001-746-320-7612x79991",
+      "extension": "345"
+    },
+    "status": "Inactive",
+    "shifts": ["Night"],
+    "hire_date": "2005-06-21",
+    "experience": "6 years",
+    "supervisor": "Tami Miller",
+    "location": "New Sandrastad Branch",
+    "performance": {
+      "avg_call_duration": "5m 21s",
+      "total_calls": 894,
+      "missed_calls": 40,
+      "resolved_calls": 854,
+      "call_rating_avg": 4.8,
+      "call_distribution": {
+        "morning": 239,
+        "evening": 114
+      }
+    },
+    "activity": {
+      "last_login": "2007-07-05T14:49:44",
+      "last_call_time": "1976-03-22T05:27:21",
+      "break_time_today": "45m",
+      "active_time_today": "6h 12m"
+    },
+    "skills": [
+      "Bilingual (English, Spanish)",
+      "Technical Support",
+      "Customer Support",
+      "Crisis Management"
+    ],
+    "notes": [
+      {
+        "date": "1977-07-30",
+        "added_by": "Admin",
+        "content": "Increase treat Mrs court those threat mind adult."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C201",
+        "date": "1998-06-28",
+        "duration": "3m 29s",
+        "status": "Resolved",
+        "rating": 4
+      },
+      {
+        "call_id": "C750",
+        "date": "2004-08-05",
+        "duration": "2m 42s",
+        "status": "Resolved",
+        "rating": null
+      },
+      {
+        "call_id": "C273",
+        "date": "1995-05-29",
+        "duration": "2m 31s",
+        "status": "Missed",
+        "rating": 4
+      },
+      {
+        "call_id": "C292",
+        "date": "2019-09-30",
+        "duration": "4m 34s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C510",
+        "date": "1970-06-23",
+        "duration": "3m 15s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C277",
+        "date": "2008-05-03",
+        "duration": "3m 24s",
+        "status": "Ongoing",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Zachary Gonzalez",
+    "profile_image": "https://placekitten.com/1014/498",
+    "role": "Agent",
+    "department": "Radiology",
+    "contact": {
+      "email": "taylorjerome@yahoo.com",
+      "phone": "9362388703",
+      "extension": "415"
+    },
+    "status": "Inactive",
+    "shifts": ["Night", "Evening"],
+    "hire_date": "1986-03-03",
+    "experience": "2 years",
+    "supervisor": "Phillip Martin",
+    "location": "Lake Heatherstad Branch",
+    "performance": {
+      "avg_call_duration": "2m 13s",
+      "total_calls": 421,
+      "missed_calls": 21,
+      "resolved_calls": 400,
+      "call_rating_avg": 4.1,
+      "call_distribution": {
+        "morning": 77,
+        "evening": 79
+      }
+    },
+    "activity": {
+      "last_login": "1997-10-27T01:47:36",
+      "last_call_time": "2007-10-07T12:25:10",
+      "break_time_today": "44m",
+      "active_time_today": "6h 18m"
+    },
+    "skills": ["Customer Support", "Medical Assistance"],
+    "notes": [
+      {
+        "date": "1970-07-25",
+        "added_by": "Admin",
+        "content": "Shake analysis ok language."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C952",
+        "date": "1998-02-25",
+        "duration": "4m 13s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C118",
+        "date": "2009-04-09",
+        "duration": "4m 41s",
+        "status": "Missed",
+        "rating": null
+      },
+      {
+        "call_id": "C814",
+        "date": "1997-11-17",
+        "duration": "5m 55s",
+        "status": "Resolved",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Brian Silva",
+    "profile_image": "https://www.lorempixel.com/291/988",
+    "role": "Agent",
+    "department": "Emergency",
+    "contact": {
+      "email": "gbarnett@nelson.com",
+      "phone": "673.191.1213x2325",
+      "extension": "187"
+    },
+    "status": "Inactive",
+    "shifts": ["Morning", "Evening"],
+    "hire_date": "1986-07-19",
+    "experience": "6 years",
+    "supervisor": "Jennifer Anderson",
+    "location": "West Michael Branch",
+    "performance": {
+      "avg_call_duration": "2m 30s",
+      "total_calls": 216,
+      "missed_calls": 21,
+      "resolved_calls": 195,
+      "call_rating_avg": 3.6,
+      "call_distribution": {
+        "morning": 97,
+        "evening": 86
+      }
+    },
+    "activity": {
+      "last_login": "2020-02-09T10:06:21",
+      "last_call_time": "2011-06-20T10:09:59",
+      "break_time_today": "27m",
+      "active_time_today": "5h 41m"
+    },
+    "skills": [
+      "Medical Assistance",
+      "Customer Support",
+      "Bilingual (English, Spanish)"
+    ],
+    "notes": [
+      {
+        "date": "2002-02-06",
+        "added_by": "Admin",
+        "content": "Far them else month spend statement Congress."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C302",
+        "date": "2002-05-14",
+        "duration": "4m 20s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C449",
+        "date": "1989-05-15",
+        "duration": "2m 24s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C490",
+        "date": "1981-12-05",
+        "duration": "3m 45s",
+        "status": "Resolved",
+        "rating": 5
+      },
+      {
+        "call_id": "C492",
+        "date": "1977-06-15",
+        "duration": "4m 37s",
+        "status": "Missed",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "David Hatfield",
+    "profile_image": "https://dummyimage.com/13x432",
+    "role": "Agent",
+    "department": "General Medicine",
+    "contact": {
+      "email": "anncarey@schultz.info",
+      "phone": "(053)283-2167",
+      "extension": "715"
+    },
+    "status": "Active",
+    "shifts": ["Evening", "Night"],
+    "hire_date": "1978-09-27",
+    "experience": "6 years",
+    "supervisor": "Douglas Juarez",
+    "location": "Smithborough Branch",
+    "performance": {
+      "avg_call_duration": "5m 28s",
+      "total_calls": 675,
+      "missed_calls": 64,
+      "resolved_calls": 611,
+      "call_rating_avg": 3.7,
+      "call_distribution": {
+        "morning": 272,
+        "evening": 315
+      }
+    },
+    "activity": {
+      "last_login": "1995-09-04T06:53:55",
+      "last_call_time": "2012-01-26T06:38:59",
+      "break_time_today": "28m",
+      "active_time_today": "8h 7m"
+    },
+    "skills": [
+      "Crisis Management",
+      "Bilingual (English, Spanish)",
+      "Customer Support",
+      "Technical Support"
+    ],
+    "notes": [
+      {
+        "date": "1986-01-04",
+        "added_by": "Admin",
+        "content": "Property grow source brother smile work."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C869",
+        "date": "2004-01-23",
+        "duration": "5m 30s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C176",
+        "date": "1999-05-29",
+        "duration": "2m 39s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C644",
+        "date": "1980-03-07",
+        "duration": "2m 10s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C734",
+        "date": "1988-06-13",
+        "duration": "4m 43s",
+        "status": "Resolved",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Michael Morris",
+    "profile_image": "https://placekitten.com/481/827",
+    "role": "Agent",
+    "department": "Surgery",
+    "contact": {
+      "email": "erika24@yahoo.com",
+      "phone": "001-288-744-6919",
+      "extension": "893"
+    },
+    "status": "Inactive",
+    "shifts": ["Morning", "Night"],
+    "hire_date": "1975-10-27",
+    "experience": "8 years",
+    "supervisor": "Andrew Holland",
+    "location": "Strongton Branch",
+    "performance": {
+      "avg_call_duration": "3m 40s",
+      "total_calls": 655,
+      "missed_calls": 42,
+      "resolved_calls": 613,
+      "call_rating_avg": 4.6,
+      "call_distribution": {
+        "morning": 198,
+        "evening": 127
+      }
+    },
+    "activity": {
+      "last_login": "1978-06-25T07:57:47",
+      "last_call_time": "2010-08-09T13:37:47",
+      "break_time_today": "16m",
+      "active_time_today": "6h 30m"
+    },
+    "skills": ["Medical Assistance", "Crisis Management"],
+    "notes": [
+      {
+        "date": "2012-08-15",
+        "added_by": "Admin",
+        "content": "Go example usually participant society official phone."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C848",
+        "date": "2003-06-30",
+        "duration": "4m 19s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C118",
+        "date": "1998-01-01",
+        "duration": "5m 59s",
+        "status": "Missed",
+        "rating": null
+      },
+      {
+        "call_id": "C693",
+        "date": "1980-08-13",
+        "duration": "4m 15s",
+        "status": "Ongoing",
+        "rating": null
+      },
+      {
+        "call_id": "C664",
+        "date": "1998-11-01",
+        "duration": "5m 41s",
+        "status": "Resolved",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Matthew Galloway",
+    "profile_image": "https://placeimg.com/785/1009/any",
+    "role": "Agent",
+    "department": "Cardiology",
+    "contact": {
+      "email": "sleach@wilson.info",
+      "phone": "001-110-411-5675x022",
+      "extension": "423"
+    },
+    "status": "Inactive",
+    "shifts": ["Evening", "Night"],
+    "hire_date": "1974-06-15",
+    "experience": "9 years",
+    "supervisor": "Rose Bentley",
+    "location": "Lake Cheryltown Branch",
+    "performance": {
+      "avg_call_duration": "4m 16s",
+      "total_calls": 256,
+      "missed_calls": 23,
+      "resolved_calls": 233,
+      "call_rating_avg": 3.6,
+      "call_distribution": {
+        "morning": 60,
+        "evening": 78
+      }
+    },
+    "activity": {
+      "last_login": "2018-05-09T13:20:22",
+      "last_call_time": "2011-03-17T05:13:27",
+      "break_time_today": "11m",
+      "active_time_today": "7h 8m"
+    },
+    "skills": [
+      "Technical Support",
+      "Bilingual (English, Spanish)",
+      "Medical Assistance",
+      "Customer Support"
+    ],
+    "notes": [
+      {
+        "date": "2004-12-18",
+        "added_by": "Admin",
+        "content": "Whatever individual almost identify than family."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C714",
+        "date": "1974-07-16",
+        "duration": "3m 37s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C323",
+        "date": "2015-10-22",
+        "duration": "2m 32s",
+        "status": "Resolved",
+        "rating": null
+      },
+      {
+        "call_id": "C994",
+        "date": "1983-07-07",
+        "duration": "4m 54s",
+        "status": "Resolved",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Sara Johnson",
+    "profile_image": "https://www.lorempixel.com/46/279",
+    "role": "Agent",
+    "department": "Radiology",
+    "contact": {
+      "email": "bobmartin@hines.org",
+      "phone": "8716280487",
+      "extension": "731"
+    },
+    "status": "Active",
+    "shifts": ["Morning"],
+    "hire_date": "2012-10-03",
+    "experience": "4 years",
+    "supervisor": "Mr. John Williams",
+    "location": "Arnoldtown Branch",
+    "performance": {
+      "avg_call_duration": "2m 21s",
+      "total_calls": 663,
+      "missed_calls": 23,
+      "resolved_calls": 640,
+      "call_rating_avg": 4.6,
+      "call_distribution": {
+        "morning": 50,
+        "evening": 260
+      }
+    },
+    "activity": {
+      "last_login": "1974-06-10T21:42:54",
+      "last_call_time": "1991-11-20T14:35:12",
+      "break_time_today": "36m",
+      "active_time_today": "7h 43m"
+    },
+    "skills": [
+      "Technical Support",
+      "Medical Assistance",
+      "Bilingual (English, Spanish)"
+    ],
+    "notes": [
+      {
+        "date": "1977-02-01",
+        "added_by": "Admin",
+        "content": "School explain fly himself attention."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C968",
+        "date": "2009-10-20",
+        "duration": "3m 12s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C315",
+        "date": "1996-07-13",
+        "duration": "3m 15s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C390",
+        "date": "1999-06-25",
+        "duration": "3m 24s",
+        "status": "Resolved",
+        "rating": 5
+      },
+      {
+        "call_id": "C122",
+        "date": "2017-04-01",
+        "duration": "5m 31s",
+        "status": "Missed",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Kelly Townsend",
+    "profile_image": "https://www.lorempixel.com/514/329",
+    "role": "Agent",
+    "department": "Emergency",
+    "contact": {
+      "email": "smithcharles@roy.info",
+      "phone": "+1-777-004-9180x432",
+      "extension": "728"
+    },
+    "status": "Inactive",
+    "shifts": ["Morning"],
+    "hire_date": "1982-02-19",
+    "experience": "2 years",
+    "supervisor": "Holly Cruz",
+    "location": "Daltonhaven Branch",
+    "performance": {
+      "avg_call_duration": "2m 49s",
+      "total_calls": 728,
+      "missed_calls": 23,
+      "resolved_calls": 705,
+      "call_rating_avg": 4.2,
+      "call_distribution": {
+        "morning": 54,
+        "evening": 290
+      }
+    },
+    "activity": {
+      "last_login": "1973-02-12T13:13:15",
+      "last_call_time": "1978-11-16T01:33:24",
+      "break_time_today": "14m",
+      "active_time_today": "4h 3m"
+    },
+    "skills": [
+      "Customer Support",
+      "Technical Support",
+      "Bilingual (English, Spanish)",
+      "Crisis Management"
+    ],
+    "notes": [
+      {
+        "date": "2006-11-09",
+        "added_by": "Admin",
+        "content": "Ground TV agency writer."
+      }
+    ],
+    "call_history": [
+      {
+        "call_id": "C178",
+        "date": "1981-03-20",
+        "duration": "4m 42s",
+        "status": "Ongoing",
+        "rating": 5
+      },
+      {
+        "call_id": "C123",
+        "date": "2018-09-24",
+        "duration": "5m 13s",
+        "status": "Resolved",
+        "rating": 3
+      },
+      {
+        "call_id": "C930",
+        "date": "1971-02-06",
+        "duration": "4m 25s",
+        "status": "Missed",
+        "rating": 3
+      },
+      {
+        "call_id": "C218",
+        "date": "2022-11-05",
+        "duration": "5m 55s",
+        "status": "Ongoing",
+        "rating": 4
+      },
+      {
+        "call_id": "C560",
+        "date": "2019-01-23",
+        "duration": "3m 41s",
+        "status": "Resolved",
+        "rating": 4
+      }
+    ]
+  }
+]

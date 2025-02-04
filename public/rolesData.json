@@ -1,0 +1,36 @@
+{
+  "admin": {
+    "permissions": [
+      "view_dashboard",
+      "manage_agents",
+      "view_agents",
+      "view_call_logs",
+      "listen_to_calls",
+      "create_reports",
+      "view_reports",
+      "manage_roles",
+      "manage_settings",
+      "view_patient_info",
+      "escalate_calls"
+    ]
+  },
+  "supervisor": {
+    "permissions": [
+      "view_dashboard",
+      "view_agents",
+      "view_call_logs",
+      "listen_to_calls",
+      "create_reports",
+      "view_reports",
+      "escalate_calls"
+    ]
+  },
+  "agent": {
+    "permissions": [
+      "view_dashboard",
+      "view_call_logs",
+      "view_reports",
+      "view_patient_info"
+    ]
+  }
+}

@@ -1,0 +1,1261 @@
+{
+  "sessions": [
+    {
+      "sid": 4224680,
+      "start_time": "2023-10-01T09:05:00Z",
+      "end_time": "2023-10-01T09:12:00Z",
+      "duration": 420,
+      "direction": 1,
+      "call_Sentiment": "Neutral",
+      "call_Quality": "Excellent",
+      "call_Resolution": "Follow-up Required",
+      "media_type": "voice",
+      "ani": "+971501234567",
+      "dnis": "+97143000000",
+      "queue_name": "Appointments",
+      "agent_id": "4",
+      "contact_id": "9153650477420000241",
+      "call_journey": [
+        {
+          "stage": "Opening / Greeting",
+          "start_timestamp": "2023-10-01T09:05:00Z",
+          "end_timestamp": "2023-10-01T09:05:30Z"
+        },
+        {
+          "stage": "Identification",
+          "start_timestamp": "2023-10-01T09:05:30Z",
+          "end_timestamp": "2023-10-01T09:06:00Z"
+        },
+        {
+          "stage": "Appointment Scheduling",
+          "start_timestamp": "2023-10-01T09:06:00Z",
+          "end_timestamp": "2023-10-01T09:10:00Z"
+        },
+        {
+          "stage": "Confirmation",
+          "start_timestamp": "2023-10-01T09:10:00Z",
+          "end_timestamp": "2023-10-01T09:11:00Z"
+        },
+        {
+          "stage": "Call Closing",
+          "start_timestamp": "2023-10-01T09:11:00Z",
+          "end_timestamp": "2023-10-01T09:12:00Z"
+        }
+      ],
+      "transcript_score": "Excellent",
+      "evaluation_score": "Very Good",
+      "is_escalated": 0,
+      "transcript_summary": [
+        {
+          "order": 0,
+          "content": "Patient requested to schedule an appointment with Dr. Smith."
+        },
+        {
+          "order": 1,
+          "content": "Agent verified patient details and checked availability."
+        },
+        {
+          "order": 2,
+          "content": "Appointment scheduled for October 5th at 10:00 AM."
+        },
+        {
+          "order": 3,
+          "content": "Patient confirmed the appointment details."
+        },
+        {
+          "order": 4,
+          "content": "Call ended with patient expressing satisfaction."
+        }
+      ],
+      "session_topics": [
+        {
+          "topic_name": "Doctor Name",
+          "topic_value": "Dr. Smith"
+        },
+        {
+          "topic_name": "Hospital Branch",
+          "topic_value": "Dubai Branch"
+        },
+        {
+          "topic_name": "Promotion Name",
+          "topic_value": "N/A"
+        },
+        {
+          "topic_name": "Speciality",
+          "topic_value": "None"
+        },
+        {
+          "topic_name": "Call Reason 1",
+          "topic_value": "Schedule Appointment"
+        },
+        {
+          "topic_name": "Call Reason 2",
+          "topic_value": "N/A"
+        },
+        {
+          "topic_name": "Call Reason 3",
+          "topic_value": "N/A"
+        }
+      ],
+      "session_transcript": [
+        {
+          "start_timestamp": "2023-10-01T09:05:00Z",
+          "end_timestamp": "2023-10-01T09:05:30Z",
+          "stage_name": "Opening / Greeting",
+          "agent": "Hello, thank you for calling Mediclinic. How can I assist you today?",
+          "customer": "Hi, I’d like to schedule an appointment with Dr. Smith."
+        },
+        {
+          "start_timestamp": "2023-10-01T09:05:30Z",
+          "end_timestamp": "2023-10-01T09:06:00Z",
+          "stage_name": "Identification",
+          "agent": "Sure, may I have your name and contact number, please?",
+          "customer": "My name is John Doe, and my number is +971501234567."
+        },
+        {
+          "start_timestamp": "2023-10-01T09:06:00Z",
+          "end_timestamp": "2023-10-01T09:10:00Z",
+          "stage_name": "Appointment Scheduling",
+          "agent": "Thank you, Mr. Doe. Let me check Dr. Smith’s availability. How about October 5th at 10:00 AM?",
+          "customer": "That works for me."
+        },
+        {
+          "start_timestamp": "2023-10-01T09:10:00Z",
+          "end_timestamp": "2023-10-01T09:11:00Z",
+          "stage_name": "Confirmation",
+          "agent": "Great, your appointment is confirmed for October 5th at 10:00 AM. You’ll receive a confirmation SMS shortly.",
+          "customer": "Thank you!"
+        },
+        {
+          "start_timestamp": "2023-10-01T09:11:00Z",
+          "end_timestamp": "2023-10-01T09:12:00Z",
+          "stage_name": "Call Closing",
+          "agent": "Is there anything else I can assist you with?",
+          "customer": "No, that’s all. Thank you!"
+        }
+      ]
+    },
+    {
+      "sid": 4224681,
+      "start_time": "2023-10-01T10:15:00Z",
+      "end_time": "2023-10-01T10:22:00Z",
+      "duration": 420,
+      "direction": 1,
+      "media_type": "voice",
+      "ani": "+971502345678",
+      "dnis": "+97143000000",
+      "call_Sentiment": "Positive",
+      "call_Quality": "Good",
+      "call_Resolution": "Follow-up Required",
+      "queue_name": "Appointments",
+      "agent_id": "4",
+      "contact_id": "9153650445180000241",
+      "call_journey": [
+        {
+          "stage": "Opening / Greeting",
+          "start_timestamp": "2023-10-01T10:15:00Z",
+          "end_timestamp": "2023-10-01T10:15:30Z"
+        },
+        {
+          "stage": "Identification",
+          "start_timestamp": "2023-10-01T10:15:30Z",
+          "end_timestamp": "2023-10-01T10:16:00Z"
+        },
+        {
+          "stage": "Appointment Rescheduling",
+          "start_timestamp": "2023-10-01T10:16:00Z",
+          "end_timestamp": "2023-10-01T10:20:00Z"
+        },
+        {
+          "stage": "Confirmation",
+          "start_timestamp": "2023-10-01T10:20:00Z",
+          "end_timestamp": "2023-10-01T10:21:00Z"
+        },
+        {
+          "stage": "Call Closing",
+          "start_timestamp": "2023-10-01T10:21:00Z",
+          "end_timestamp": "2023-10-01T10:22:00Z"
+        }
+      ],
+      "transcript_score": "Excellent",
+      "evaluation_score": "Very Good",
+      "is_escalated": 0,
+      "transcript_summary": [
+        {
+          "order": 0,
+          "content": "Patient requested to reschedule an appointment with Dr. Ahmed."
+        },
+        {
+          "order": 1,
+          "content": "Agent verified patient details and checked alternative slots."
+        },
+        {
+          "order": 2,
+          "content": "Appointment rescheduled to October 6th at 3:00 PM."
+        },
+        {
+          "order": 3,
+          "content": "Patient confirmed the new appointment details."
+        },
+        {
+          "order": 4,
+          "content": "Call ended with patient expressing gratitude."
+        }
+      ],
+      "session_topics": [
+        {
+          "topic_name": "Doctor Name",
+          "topic_value": "Dr. Ahmed"
+        },
+        {
+          "topic_name": "Hospital Branch",
+          "topic_value": "Abu Dhabi Branch"
+        },
+        {
+          "topic_name": "Promotion Name",
+          "topic_value": "N/A"
+        },
+        {
+          "topic_name": "Speciality",
+          "topic_value": "N/A"
+        },
+        {
+          "topic_name": "Call Reason 1",
+          "topic_value": "Reschedule Appointment"
+        },
+        {
+          "topic_name": "Call Reason 2",
+          "topic_value": "N/A"
+        },
+        {
+          "topic_name": "Call Reason 3",
+          "topic_value": "N/A"
+        }
+      ],
+      "session_transcript": [
+        {
+          "start_timestamp": "2023-10-01T10:15:00Z",
+          "end_timestamp": "2023-10-01T10:15:30Z",
+          "stage_name": "Opening / Greeting",
+          "agent": "مرحبًا، شكرًا لتواصلكم مع Mediclinic. كيف يمكنني مساعدتك؟",
+          "customer": "مرحبًا، أريد تغيير موعدي مع الدكتور أحمد."
+        },
+        {
+          "start_timestamp": "2023-10-01T10:15:30Z",
+          "end_timestamp": "2023-10-01T10:16:00Z",
+          "stage_name": "Identification",
+          "agent": "بالطبع، هل يمكنني الحصول على اسمك ورقم هاتفك؟",
+          "customer": "اسمي علي خالد، ورقمي هو +971502345678."
+        },
+        {
+          "start_timestamp": "2023-10-01T10:16:00Z",
+          "end_timestamp": "2023-10-01T10:20:00Z",
+          "stage_name": "Appointment Rescheduling",
+          "agent": "شكرًا، سيد خالد. دعني أتحقق من المواعيد المتاحة. هل يناسبك 6 أكتوبر الساعة 3:00 مساءً؟",
+          "customer": "نعم، هذا الوقت مناسب."
+        },
+        {
+          "start_timestamp": "2023-10-01T10:20:00Z",
+          "end_timestamp": "2023-10-01T10:21:00Z",
+          "stage_name": "Confirmation",
+          "agent": "تم تأكيد موعدك الجديد لـ 6 أكتوبر الساعة 3:00 مساءً. ستتلقى رسالة تأكيد قريبًا.",
+          "customer": "شكرًا جزيلاً!"
+        },
+        {
+          "start_timestamp": "2023-10-01T10:21:00Z",
+          "end_timestamp": "2023-10-01T10:22:00Z",
+          "stage_name": "Call Closing",
+          "agent": "هل هناك أي شيء آخر يمكنني مساعدتك به؟",
+          "customer": "لا، هذا كل شيء. شكرًا!"
+        }
+      ]
+    },
+    {
+      "sid": 4224682,
+      "start_time": "2023-10-01T11:30:00Z",
+      "end_time": "2023-10-01T11:40:00Z",
+      "duration": "600",
+      "direction": 1,
+      "media_type": "voice",
+      "ani": "+971503456789",
+      "dnis": "+97143000000",
+      "queue_name": "Complaints",
+      "agent_id": "1",
+      "call_Sentiment": "Negative",
+      "call_Quality": "Poor",
+      "call_Resolution": "Unresolved",
+      "contact_id": "9153650459010000241",
+      "call_journey": [
+        {
+          "stage": "Opening / Greeting",
+          "start_timestamp": "2023-10-01T11:30:00Z",
+          "end_timestamp": "2023-10-01T11:30:30Z"
+        },
+        {
+          "stage": "Identification",
+          "start_timestamp": "2023-10-01T11:30:30Z",
+          "end_timestamp": "2023-10-01T11:31:00Z"
+        },
+        {
+          "stage": "Complaint Handling",
+          "start_timestamp": "2023-10-01T11:31:00Z",
+          "end_timestamp": "2023-10-01T11:38:00Z"
+        },
+        {
+          "stage": "Resolution",
+          "start_timestamp": "2023-10-01T11:38:00Z",
+          "end_timestamp": "2023-10-01T11:39:00Z"
+        },
+        {
+          "stage": "Call Closing",
+          "start_timestamp": "2023-10-01T11:39:00Z",
+          "end_timestamp": "2023-10-01T11:40:00Z"
+        }
+      ],
+      "transcript_score": "Good",
+      "evaluation_score": "Good",
+      "is_escalated": 1,
+      "transcript_summary": [
+        {
+          "order": 0,
+          "content": "Patient complained that the doctor was not available at the scheduled time."
+        },
+        {
+          "order": 1,
+          "content": "Agent apologized and investigated the issue."
+        },
+        {
+          "order": 2,
+          "content": "Agent rescheduled the appointment and offered a discount on the next visit."
+        },
+        {
+          "order": 3,
+          "content": "Patient accepted the resolution."
+        },
+        {
+          "order": 4,
+          "content": "Call ended with patient expressing mixed feelings."
+        }
+      ],
+      "session_topics": [
+        {
+          "topic_name": "Doctor Name",
+          "topic_value": "Dr. Johnson"
+        },
+        {
+          "topic_name": "Hospital Branch",
+          "topic_value": "Sharjah Branch"
+        },
+        {
+          "topic_name": "Promotion Name",
+          "topic_value": "10% Discount"
+        },
+        {
+          "topic_name": "Speciality",
+          "topic_value": "N/A"
+        },
+        {
+          "topic_name": "Call Reason 1",
+          "topic_value": "Doctor Not Available"
+        },
+        {
+          "topic_name": "Call Reason 2",
+          "topic_value": "N/A"
+        },
+        {
+          "topic_name": "Call Reason 3",
+          "topic_value": "N/A"
+        }
+      ],
+      "session_transcript": [
+        {
+          "start_timestamp": "2023-10-01T11:30:00Z",
+          "end_timestamp": "2023-10-01T11:30:30Z",
+          "stage_name": "Opening / Greeting",
+          "agent": "Hello, thank you for calling Mediclinic. How can I assist you today?",
+          "customer": "Hi, I had an appointment with Dr. Johnson at 10:00 AM today, but he wasn’t there."
+        },
+        {
+          "start_timestamp": "2023-10-01T11:30:30Z",
+          "end_timestamp": "2023-10-01T11:31:00Z",
+          "stage_name": "Identification",
+          "agent": "I’m sorry to hear that. May I have your name and contact number, please?",
+          "customer": "My name is Sarah Brown, and my number is +971503456789."
+        },
+        {
+          "start_timestamp": "2023-10-01T11:31:00Z",
+          "end_timestamp": "2023-10-01T11:38:00Z",
+          "stage_name": "Complaint Handling",
+          "agent": "Thank you, Ms. Brown. Let me check what happened. It seems there was an emergency. I sincerely apologize for the inconvenience.",
+          "customer": "This is very frustrating. I took time off work for this."
+        },
+        {
+          "start_timestamp": "2023-10-01T11:38:00Z",
+          "end_timestamp": "2023-10-01T11:39:00Z",
+          "stage_name": "Resolution",
+          "agent": "I completely understand. Let me reschedule your appointment and offer you a 10% discount on your next visit as a gesture of goodwill.",
+          "customer": "Okay, that’s acceptable."
+        },
+        {
+          "start_timestamp": "2023-10-01T11:39:00Z",
+          "end_timestamp": "2023-10-01T11:40:00Z",
+          "stage_name": "Call Closing",
+          "agent": "Thank you for your understanding. Is there anything else I can assist you with?",
+          "customer": "No, that’s all."
+        }
+      ]
+    },
+    {
+      "sid": 4224683,
+      "start_time": "2023-10-02T14:00:00Z",
+      "end_time": "2023-10-02T14:05:00Z",
+      "duration": 300,
+      "direction": 2,
+      "media_type": "voice",
+      "ani": "+97143000000",
+      "dnis": "+971501234567",
+      "queue_name": "Appointment Confirmation",
+      "agent_id": "5",
+      "call_Sentiment": "Neutral",
+      "call_Quality": "Good",
+      "call_Resolution": "Resolved",
+      "contact_id": "9153650452320000241",
+      "call_journey": [
+        {
+          "stage": "Opening / Greeting",
+          "start_timestamp": "2023-10-02T14:00:00Z",
+          "end_timestamp": "2023-10-02T14:00:30Z"
+        },
+        {
+          "stage": "Identification",
+          "start_timestamp": "2023-10-02T14:00:30Z",
+          "end_timestamp": "2023-10-02T14:01:00Z"
+        },
+        {
+          "stage": "Appointment Confirmation",
+          "start_timestamp": "2023-10-02T14:01:00Z",
+          "end_timestamp": "2023-10-02T14:03:00Z"
+        },
+        {
+          "stage": "Call Closing",
+          "start_timestamp": "2023-10-02T14:03:00Z",
+          "end_timestamp": "2023-10-02T14:05:00Z"
+        }
+      ],
+      "transcript_score": "Excellent",
+      "evaluation_score": "Very Good",
+      "is_escalated": 0,
+      "transcript_summary": [
+        {
+          "order": 0,
+          "content": "Agent called to confirm the patient’s appointment with Dr. Smith."
+        },
+        {
+          "order": 1,
+          "content": "Patient confirmed the appointment for October 5th at 10:00 AM."
+        },
+        {
+          "order": 2,
+          "content": "Agent reminded the patient to arrive 15 minutes early."
+        },
+        {
+          "order": 3,
+          "content": "Patient thanked the agent for the reminder."
+        },
+        {
+          "order": 4,
+          "content": "Call ended on a positive note."
+        }
+      ],
+      "session_topics": [
+        {
+          "topic_name": "Doctor Name",
+          "topic_value": "Dr. Smith"
+        },
+        {
+          "topic_name": "Hospital Branch",
+          "topic_value": "Dubai Branch"
+        },
+        {
+          "topic_name": "Promotion Name",
+          "topic_value": "N/A"
+        },
+        {
+          "topic_name": "Call Reason 1",
+          "topic_value": "Appointment Confirmation"
+        },
+        {
+          "topic_name": "Call Reason 2",
+          "topic_value": "N/A"
+        },
+        {
+          "topic_name": "Call Reason 3",
+          "topic_value": "N/A"
+        },
+        {
+          "topic_name": "Speciality",
+          "topic_value": "Cardiology"
+        }
+      ],
+      "session_transcript": [
+        {
+          "start_timestamp": "2023-10-02T14:00:00Z",
+          "end_timestamp": "2023-10-02T14:00:30Z",
+          "stage_name": "Opening / Greeting",
+          "agent": "Hello, this is Sarah from Mediclinic. Am I speaking with Mr. John Doe?",
+          "customer": "Yes, this is John."
+        },
+        {
+          "start_timestamp": "2023-10-02T14:00:30Z",
+          "end_timestamp": "2023-10-02T14:01:00Z",
+          "stage_name": "Identification",
+          "agent": "Thank you, Mr. Doe. I’m calling to confirm your appointment with Dr. Smith on October 5th at 10:00 AM.",
+          "customer": "Yes, that’s correct."
+        },
+        {
+          "start_timestamp": "2023-10-02T14:01:00Z",
+          "end_timestamp": "2023-10-02T14:03:00Z",
+          "stage_name": "Appointment Confirmation",
+          "agent": "Great! Please arrive 15 minutes early to complete any necessary paperwork.",
+          "customer": "Sure, I’ll be there."
+        },
+        {
+          "start_timestamp": "2023-10-02T14:03:00Z",
+          "end_timestamp": "2023-10-02T14:05:00Z",
+          "stage_name": "Call Closing",
+          "agent": "Thank you for confirming. Have a great day!",
+          "customer": "Thank you, you too!"
+        }
+      ]
+    },
+    {
+      "sid": 4224684,
+      "start_time": "2023-10-02T15:00:00Z",
+      "end_time": "2023-10-02T15:10:00Z",
+      "duration": 600,
+      "direction": 2,
+      "media_type": "voice",
+      "ani": "+97143000000",
+      "dnis": "+971502345678",
+      "queue_name": "Promotions",
+      "agent_id": "7",
+      "call_Sentiment": "Neutral",
+      "call_Quality": "Excellent",
+      "call_Resolution": "Follow-up Required",
+      "contact_id": "9144186750790000241",
+      "call_journey": [
+        {
+          "stage": "Opening / Greeting",
+          "start_timestamp": "2023-10-02T15:00:00Z",
+          "end_timestamp": "2023-10-02T15:00:30Z"
+        },
+        {
+          "stage": "Identification",
+          "start_timestamp": "2023-10-02T15:00:30Z",
+          "end_timestamp": "2023-10-02T15:01:00Z"
+        },
+        {
+          "stage": "Promotion Details",
+          "start_timestamp": "2023-10-02T15:01:00Z",
+          "end_timestamp": "2023-10-02T15:05:00Z"
+        },
+        {
+          "stage": "Appointment Scheduling",
+          "start_timestamp": "2023-10-02T15:05:00Z",
+          "end_timestamp": "2023-10-02T15:08:00Z"
+        },
+        {
+          "stage": "Call Closing",
+          "start_timestamp": "2023-10-02T15:08:00Z",
+          "end_timestamp": "2023-10-02T15:10:00Z"
+        }
+      ],
+      "transcript_score": "Excellent",
+      "evaluation_score": "Very Good",
+      "is_escalated": 0,
+      "transcript_summary": [
+        {
+          "order": 0,
+          "content": "Agent informed the patient about a promotion on dermatology services."
+        },
+        {
+          "order": 1,
+          "content": "Patient expressed interest in the promotion and requested an appointment."
+        },
+        {
+          "order": 2,
+          "content": "Agent scheduled an appointment with Dr. Lee for October 10th at 2:00 PM."
+        },
+        {
+          "order": 3,
+          "content": "Patient confirmed the appointment and thanked the agent."
+        },
+        {
+          "order": 4,
+          "content": "Call ended with the patient expressing appreciation for the promotion."
+        }
+      ],
+      "session_topics": [
+        {
+          "topic_name": "Doctor Name",
+          "topic_value": "Dr. Lee"
+        },
+        {
+          "topic_name": "Hospital Branch",
+          "topic_value": "Dubai Branch"
+        },
+        {
+          "topic_name": "Promotion Name",
+          "topic_value": "Dermatology Checkup Promotion"
+        },
+        {
+          "topic_name": "Call Reason 1",
+          "topic_value": "Promotion Details"
+        },
+        {
+          "topic_name": "Call Reason 2",
+          "topic_value": "Appointment Scheduling"
+        },
+        {
+          "topic_name": "Call Reason 3",
+          "topic_value": "N/A"
+        },
+        {
+          "topic_name": "Speciality",
+          "topic_value": "Dermatology"
+        }
+      ],
+      "session_transcript": [
+        {
+          "start_timestamp": "2023-10-02T15:00:00Z",
+          "end_timestamp": "2023-10-02T15:00:30Z",
+          "stage_name": "Opening / Greeting",
+          "agent": "Hello, this is Mark from Mediclinic. Am I speaking with Mr. Ali Khalid?",
+          "customer": "Yes, this is Ali."
+        },
+        {
+          "start_timestamp": "2023-10-02T15:00:30Z",
+          "end_timestamp": "2023-10-02T15:01:00Z",
+          "stage_name": "Identification",
+          "agent": "Thank you, Mr. Khalid. I’m calling to inform you about our ongoing promotion on dermatology services.",
+          "customer": "Oh, what’s the promotion about?"
+        },
+        {
+          "start_timestamp": "2023-10-02T15:01:00Z",
+          "end_timestamp": "2023-10-02T15:05:00Z",
+          "stage_name": "Promotion Details",
+          "agent": "We’re offering a 20% discount on dermatology checkups this month. Would you be interested?",
+          "customer": "Yes, that sounds good. Can I schedule an appointment?"
+        },
+        {
+          "start_timestamp": "2023-10-02T15:05:00Z",
+          "end_timestamp": "2023-10-02T15:08:00Z",
+          "stage_name": "Appointment Scheduling",
+          "agent": "Of course! How about October 10th at 2:00 PM with Dr. Lee?",
+          "customer": "That works for me."
+        },
+        {
+          "start_timestamp": "2023-10-02T15:08:00Z",
+          "end_timestamp": "2023-10-02T15:10:00Z",
+          "stage_name": "Call Closing",
+          "agent": "Great! Your appointment is confirmed. You’ll receive a confirmation SMS shortly.",
+          "customer": "Thank you for letting me know about the promotion!"
+        }
+      ]
+    },
+    {
+      "sid": 4680677,
+      "start_time": "2023-10-01T13:08:00Z",
+      "end_time": "2023-10-01T13:14:29Z",
+      "duration": 389,
+      "direction": 1,
+      "media_type": "voice",
+      "ani": "+971501338324",
+      "dnis": "+971432416071",
+      "queue_name": "Appointments",
+      "agent_id": "36",
+      "contact_id": "1280944579332699830",
+      "call_journey": [
+        {
+          "stage": "Opening / Greeting",
+          "start_timestamp": "2023-10-01T13:08:00Z",
+          "end_timestamp": "2023-10-01T13:08:30Z"
+        },
+        {
+          "stage": "Identification",
+          "start_timestamp": "2023-10-01T13:08:30Z",
+          "end_timestamp": "2023-10-01T13:09:00Z"
+        },
+        {
+          "stage": "Appointment Scheduling",
+          "start_timestamp": "2023-10-01T13:09:00Z",
+          "end_timestamp": "2023-10-01T13:13:00Z"
+        },
+        {
+          "stage": "Confirmation",
+          "start_timestamp": "2023-10-01T13:13:00Z",
+          "end_timestamp": "2023-10-01T13:14:00Z"
+        },
+        {
+          "stage": "Call Closing",
+          "start_timestamp": "2023-10-01T13:14:00Z",
+          "end_timestamp": "2023-10-01T13:14:29Z"
+        }
+      ],
+      "transcript_score": "Average",
+      "evaluation_score": "Good",
+      "is_escalated": 0,
+      "transcript_summary": [
+        {
+          "order": 0,
+          "content": "Patient requested to schedule an appointment."
+        },
+        { "order": 1, "content": "Agent verified patient details." },
+        { "order": 2, "content": "Appointment scheduled." },
+        { "order": 3, "content": "Patient confirmed details." },
+        { "order": 4, "content": "Call ended with satisfaction." }
+      ],
+      "session_topics": [
+        { "topic_name": "Doctor Name", "topic_value": "Dr. Smith" },
+        { "topic_name": "Hospital Branch", "topic_value": "Dubai Branch" },
+        { "topic_name": "Speciality", "topic_value": "General Medicine" },
+        { "topic_name": "Call Reason", "topic_value": "Schedule Appointment" }
+      ],
+      "session_transcript": [
+        {
+          "start_timestamp": "2023-10-01T13:08:00Z",
+          "end_timestamp": "2023-10-01T13:08:30Z",
+          "stage_name": "Opening / Greeting",
+          "agent": "Hello, thank you for calling. How can I assist you?",
+          "customer": "Hi, I need an appointment."
+        },
+        {
+          "start_timestamp": "2023-10-01T13:08:30Z",
+          "end_timestamp": "2023-10-01T13:09:00Z",
+          "stage_name": "Identification",
+          "agent": "Can I have your details?",
+          "customer": "Sure, my name is John Doe."
+        },
+        {
+          "start_timestamp": "2023-10-01T13:09:00Z",
+          "end_timestamp": "2023-10-01T13:13:00Z",
+          "stage_name": "Appointment Scheduling",
+          "agent": "Dr. Smith is available at 10:00 AM.",
+          "customer": "That works."
+        },
+        {
+          "start_timestamp": "2023-10-01T13:13:00Z",
+          "end_timestamp": "2023-10-01T13:14:00Z",
+          "stage_name": "Confirmation",
+          "agent": "Your appointment is confirmed.",
+          "customer": "Thanks!"
+        },
+        {
+          "start_timestamp": "2023-10-01T13:14:00Z",
+          "end_timestamp": "2023-10-01T13:14:29Z",
+          "stage_name": "Call Closing",
+          "agent": "Is there anything else?",
+          "customer": "No, thanks!"
+        }
+      ],
+      "call_Sentiment": "Negative",
+      "call_Quality": "Average",
+      "call_Resolution": "Resolved"
+    },
+    {
+      "sid": 4042023,
+      "start_time": "2023-10-01T08:23:00Z",
+      "end_time": "2023-10-01T08:27:44Z",
+      "duration": 284,
+      "direction": 1,
+      "media_type": "voice",
+      "ani": "+971503285093",
+      "dnis": "+971432551547",
+      "queue_name": "Appointments",
+      "agent_id": "31",
+      "contact_id": "3016953116067527324",
+      "call_journey": [
+        {
+          "stage": "Opening / Greeting",
+          "start_timestamp": "2023-10-01T08:23:00Z",
+          "end_timestamp": "2023-10-01T08:23:30Z"
+        },
+        {
+          "stage": "Identification",
+          "start_timestamp": "2023-10-01T08:23:30Z",
+          "end_timestamp": "2023-10-01T08:24:00Z"
+        },
+        {
+          "stage": "Appointment Scheduling",
+          "start_timestamp": "2023-10-01T08:24:00Z",
+          "end_timestamp": "2023-10-01T08:28:00Z"
+        },
+        {
+          "stage": "Confirmation",
+          "start_timestamp": "2023-10-01T08:28:00Z",
+          "end_timestamp": "2023-10-01T08:29:00Z"
+        },
+        {
+          "stage": "Call Closing",
+          "start_timestamp": "2023-10-01T08:29:00Z",
+          "end_timestamp": "2023-10-01T08:27:44Z"
+        }
+      ],
+      "transcript_score": "Good",
+      "evaluation_score": "Very Good",
+      "is_escalated": 1,
+      "transcript_summary": [
+        {
+          "order": 0,
+          "content": "Patient requested to schedule an appointment."
+        },
+        { "order": 1, "content": "Agent verified patient details." },
+        { "order": 2, "content": "Appointment scheduled." },
+        { "order": 3, "content": "Patient confirmed details." },
+        { "order": 4, "content": "Call ended with satisfaction." }
+      ],
+      "session_topics": [
+        { "topic_name": "Doctor Name", "topic_value": "Dr. Smith" },
+        { "topic_name": "Hospital Branch", "topic_value": "Dubai Branch" },
+        { "topic_name": "Speciality", "topic_value": "General Medicine" },
+        { "topic_name": "Call Reason", "topic_value": "Schedule Appointment" }
+      ],
+      "session_transcript": [
+        {
+          "start_timestamp": "2023-10-01T08:23:00Z",
+          "end_timestamp": "2023-10-01T08:23:30Z",
+          "stage_name": "Opening / Greeting",
+          "agent": "Hello, thank you for calling. How can I assist you?",
+          "customer": "Hi, I need an appointment."
+        },
+        {
+          "start_timestamp": "2023-10-01T08:23:30Z",
+          "end_timestamp": "2023-10-01T08:24:00Z",
+          "stage_name": "Identification",
+          "agent": "Can I have your details?",
+          "customer": "Sure, my name is John Doe."
+        },
+        {
+          "start_timestamp": "2023-10-01T08:24:00Z",
+          "end_timestamp": "2023-10-01T08:28:00Z",
+          "stage_name": "Appointment Scheduling",
+          "agent": "Dr. Smith is available at 10:00 AM.",
+          "customer": "That works."
+        },
+        {
+          "start_timestamp": "2023-10-01T08:28:00Z",
+          "end_timestamp": "2023-10-01T08:29:00Z",
+          "stage_name": "Confirmation",
+          "agent": "Your appointment is confirmed.",
+          "customer": "Thanks!"
+        },
+        {
+          "start_timestamp": "2023-10-01T08:29:00Z",
+          "end_timestamp": "2023-10-01T08:27:44Z",
+          "stage_name": "Call Closing",
+          "agent": "Is there anything else?",
+          "customer": "No, thanks!"
+        }
+      ],
+      "call_Sentiment": "Positive",
+      "call_Quality": "Excellent",
+      "call_Resolution": "Follow-up Required"
+    },
+    {
+      "sid": 4793470,
+      "start_time": "2023-10-01T15:07:00Z",
+      "end_time": "2023-10-01T15:14:07Z",
+      "duration": 427,
+      "direction": 1,
+      "media_type": "voice",
+      "ani": "+971501627777",
+      "dnis": "+971435383872",
+      "queue_name": "Appointments",
+      "agent_id": "3",
+      "contact_id": "7191793914227970033",
+      "call_journey": [
+        {
+          "stage": "Opening / Greeting",
+          "start_timestamp": "2023-10-01T15:07:00Z",
+          "end_timestamp": "2023-10-01T15:07:30Z"
+        },
+        {
+          "stage": "Identification",
+          "start_timestamp": "2023-10-01T15:07:30Z",
+          "end_timestamp": "2023-10-01T15:08:00Z"
+        },
+        {
+          "stage": "Appointment Scheduling",
+          "start_timestamp": "2023-10-01T15:08:00Z",
+          "end_timestamp": "2023-10-01T15:12:00Z"
+        },
+        {
+          "stage": "Confirmation",
+          "start_timestamp": "2023-10-01T15:12:00Z",
+          "end_timestamp": "2023-10-01T15:13:00Z"
+        },
+        {
+          "stage": "Call Closing",
+          "start_timestamp": "2023-10-01T15:13:00Z",
+          "end_timestamp": "2023-10-01T15:14:07Z"
+        }
+      ],
+      "transcript_score": "Average",
+      "evaluation_score": "Fair",
+      "is_escalated": 0,
+      "transcript_summary": [
+        {
+          "order": 0,
+          "content": "Patient requested to schedule an appointment."
+        },
+        { "order": 1, "content": "Agent verified patient details." },
+        { "order": 2, "content": "Appointment scheduled." },
+        { "order": 3, "content": "Patient confirmed details." },
+        { "order": 4, "content": "Call ended with satisfaction." }
+      ],
+      "session_topics": [
+        { "topic_name": "Doctor Name", "topic_value": "Dr. Smith" },
+        { "topic_name": "Hospital Branch", "topic_value": "Dubai Branch" },
+        { "topic_name": "Speciality", "topic_value": "General Medicine" },
+        { "topic_name": "Call Reason", "topic_value": "Schedule Appointment" }
+      ],
+      "session_transcript": [
+        {
+          "start_timestamp": "2023-10-01T15:07:00Z",
+          "end_timestamp": "2023-10-01T15:07:30Z",
+          "stage_name": "Opening / Greeting",
+          "agent": "Hello, thank you for calling. How can I assist you?",
+          "customer": "Hi, I need an appointment."
+        },
+        {
+          "start_timestamp": "2023-10-01T15:07:30Z",
+          "end_timestamp": "2023-10-01T15:08:00Z",
+          "stage_name": "Identification",
+          "agent": "Can I have your details?",
+          "customer": "Sure, my name is John Doe."
+        },
+        {
+          "start_timestamp": "2023-10-01T15:08:00Z",
+          "end_timestamp": "2023-10-01T15:12:00Z",
+          "stage_name": "Appointment Scheduling",
+          "agent": "Dr. Smith is available at 10:00 AM.",
+          "customer": "That works."
+        },
+        {
+          "start_timestamp": "2023-10-01T15:12:00Z",
+          "end_timestamp": "2023-10-01T15:13:00Z",
+          "stage_name": "Confirmation",
+          "agent": "Your appointment is confirmed.",
+          "customer": "Thanks!"
+        },
+        {
+          "start_timestamp": "2023-10-01T15:13:00Z",
+          "end_timestamp": "2023-10-01T15:14:07Z",
+          "stage_name": "Call Closing",
+          "agent": "Is there anything else?",
+          "customer": "No, thanks!"
+        }
+      ],
+      "call_Sentiment": "Neutral",
+      "call_Quality": "Poor",
+      "call_Resolution": "Unresolved"
+    },
+    {
+      "sid": 4337560,
+      "start_time": "2023-10-01T17:57:00Z",
+      "end_time": "2023-10-01T18:03:14Z",
+      "duration": 374,
+      "direction": 1,
+      "media_type": "voice",
+      "ani": "+971505881535",
+      "dnis": "+971431853749",
+      "queue_name": "Appointments",
+      "agent_id": "42",
+      "contact_id": "3196852876706864822",
+      "call_journey": [
+        {
+          "stage": "Opening / Greeting",
+          "start_timestamp": "2023-10-01T17:57:00Z",
+          "end_timestamp": "2023-10-01T17:57:30Z"
+        },
+        {
+          "stage": "Identification",
+          "start_timestamp": "2023-10-01T17:57:30Z",
+          "end_timestamp": "2023-10-01T17:58:00Z"
+        },
+        {
+          "stage": "Appointment Scheduling",
+          "start_timestamp": "2023-10-01T17:58:00Z",
+          "end_timestamp": "2023-10-01T18:02:00Z"
+        },
+        {
+          "stage": "Confirmation",
+          "start_timestamp": "2023-10-01T18:02:00Z",
+          "end_timestamp": "2023-10-01T18:03:00Z"
+        },
+        {
+          "stage": "Call Closing",
+          "start_timestamp": "2023-10-01T18:03:00Z",
+          "end_timestamp": "2023-10-01T18:03:14Z"
+        }
+      ],
+      "transcript_score": "Excellent",
+      "evaluation_score": "Very Good",
+      "is_escalated": 1,
+      "transcript_summary": [
+        {
+          "order": 0,
+          "content": "Patient requested to schedule an appointment."
+        },
+        { "order": 1, "content": "Agent verified patient details." },
+        { "order": 2, "content": "Appointment scheduled." },
+        { "order": 3, "content": "Patient confirmed details." },
+        { "order": 4, "content": "Call ended with satisfaction." }
+      ],
+      "session_topics": [
+        { "topic_name": "Doctor Name", "topic_value": "Dr. Smith" },
+        { "topic_name": "Hospital Branch", "topic_value": "Dubai Branch" },
+        { "topic_name": "Speciality", "topic_value": "General Medicine" },
+        { "topic_name": "Call Reason", "topic_value": "Schedule Appointment" }
+      ],
+      "session_transcript": [
+        {
+          "start_timestamp": "2023-10-01T17:57:00Z",
+          "end_timestamp": "2023-10-01T17:57:30Z",
+          "stage_name": "Opening / Greeting",
+          "agent": "Hello, thank you for calling. How can I assist you?",
+          "customer": "Hi, I need an appointment."
+        },
+        {
+          "start_timestamp": "2023-10-01T17:57:30Z",
+          "end_timestamp": "2023-10-01T17:58:00Z",
+          "stage_name": "Identification",
+          "agent": "Can I have your details?",
+          "customer": "Sure, my name is John Doe."
+        },
+        {
+          "start_timestamp": "2023-10-01T17:58:00Z",
+          "end_timestamp": "2023-10-01T18:02:00Z",
+          "stage_name": "Appointment Scheduling",
+          "agent": "Dr. Smith is available at 10:00 AM.",
+          "customer": "That works."
+        },
+        {
+          "start_timestamp": "2023-10-01T18:02:00Z",
+          "end_timestamp": "2023-10-01T18:03:00Z",
+          "stage_name": "Confirmation",
+          "agent": "Your appointment is confirmed.",
+          "customer": "Thanks!"
+        },
+        {
+          "start_timestamp": "2023-10-01T18:03:00Z",
+          "end_timestamp": "2023-10-01T18:03:14Z",
+          "stage_name": "Call Closing",
+          "agent": "Is there anything else?",
+          "customer": "No, thanks!"
+        }
+      ],
+      "call_Sentiment": "Positive",
+      "call_Quality": "Poor",
+      "call_Resolution": "Follow-up Required"
+    },
+    {
+      "sid": 4393011,
+      "start_time": "2023-10-01T14:15:00Z",
+      "end_time": "2023-10-01T14:19:20Z",
+      "duration": 260,
+      "direction": 1,
+      "media_type": "voice",
+      "ani": "+971508310898",
+      "dnis": "+971436229828",
+      "queue_name": "Appointments",
+      "agent_id": "18",
+      "contact_id": "3320297711347502197",
+      "call_journey": [
+        {
+          "stage": "Opening / Greeting",
+          "start_timestamp": "2023-10-01T14:15:00Z",
+          "end_timestamp": "2023-10-01T14:15:30Z"
+        },
+        {
+          "stage": "Identification",
+          "start_timestamp": "2023-10-01T14:15:30Z",
+          "end_timestamp": "2023-10-01T14:16:00Z"
+        },
+        {
+          "stage": "Appointment Scheduling",
+          "start_timestamp": "2023-10-01T14:16:00Z",
+          "end_timestamp": "2023-10-01T14:20:00Z"
+        },
+        {
+          "stage": "Confirmation",
+          "start_timestamp": "2023-10-01T14:20:00Z",
+          "end_timestamp": "2023-10-01T14:21:00Z"
+        },
+        {
+          "stage": "Call Closing",
+          "start_timestamp": "2023-10-01T14:21:00Z",
+          "end_timestamp": "2023-10-01T14:19:20Z"
+        }
+      ],
+      "transcript_score": "Good",
+      "evaluation_score": "Good",
+      "is_escalated": 0,
+      "transcript_summary": [
+        {
+          "order": 0,
+          "content": "Patient requested to schedule an appointment."
+        },
+        { "order": 1, "content": "Agent verified patient details." },
+        { "order": 2, "content": "Appointment scheduled." },
+        { "order": 3, "content": "Patient confirmed details." },
+        { "order": 4, "content": "Call ended with satisfaction." }
+      ],
+      "session_topics": [
+        { "topic_name": "Doctor Name", "topic_value": "Dr. Smith" },
+        { "topic_name": "Hospital Branch", "topic_value": "Dubai Branch" },
+        { "topic_name": "Speciality", "topic_value": "General Medicine" },
+        { "topic_name": "Call Reason", "topic_value": "Schedule Appointment" }
+      ],
+      "session_transcript": [
+        {
+          "start_timestamp": "2023-10-01T14:15:00Z",
+          "end_timestamp": "2023-10-01T14:15:30Z",
+          "stage_name": "Opening / Greeting",
+          "agent": "Hello, thank you for calling. How can I assist you?",
+          "customer": "Hi, I need an appointment."
+        },
+        {
+          "start_timestamp": "2023-10-01T14:15:30Z",
+          "end_timestamp": "2023-10-01T14:16:00Z",
+          "stage_name": "Identification",
+          "agent": "Can I have your details?",
+          "customer": "Sure, my name is John Doe."
+        },
+        {
+          "start_timestamp": "2023-10-01T14:16:00Z",
+          "end_timestamp": "2023-10-01T14:20:00Z",
+          "stage_name": "Appointment Scheduling",
+          "agent": "Dr. Smith is available at 10:00 AM.",
+          "customer": "That works."
+        },
+        {
+          "start_timestamp": "2023-10-01T14:20:00Z",
+          "end_timestamp": "2023-10-01T14:21:00Z",
+          "stage_name": "Confirmation",
+          "agent": "Your appointment is confirmed.",
+          "customer": "Thanks!"
+        },
+        {
+          "start_timestamp": "2023-10-01T14:21:00Z",
+          "end_timestamp": "2023-10-01T14:19:20Z",
+          "stage_name": "Call Closing",
+          "agent": "Is there anything else?",
+          "customer": "No, thanks!"
+        }
+      ],
+      "call_Sentiment": "Positive",
+      "call_Quality": "Good",
+      "call_Resolution": "Unresolved"
+    },
+    {
+      "sid": 4436435,
+      "start_time": "2023-10-01T13:27:00Z",
+      "end_time": "2023-10-01T13:35:09Z",
+      "duration": 489,
+      "direction": 1,
+      "media_type": "voice",
+      "ani": "+971505463782",
+      "dnis": "+971434014942",
+      "queue_name": "Appointments",
+      "agent_id": "27",
+      "contact_id": "1586205237201530590",
+      "call_journey": [
+        {
+          "stage": "Opening / Greeting",
+          "start_timestamp": "2023-10-01T13:27:00Z",
+          "end_timestamp": "2023-10-01T13:27:30Z"
+        },
+        {
+          "stage": "Identification",
+          "start_timestamp": "2023-10-01T13:27:30Z",
+          "end_timestamp": "2023-10-01T13:28:00Z"
+        },
+        {
+          "stage": "Appointment Scheduling",
+          "start_timestamp": "2023-10-01T13:28:00Z",
+          "end_timestamp": "2023-10-01T13:32:00Z"
+        },
+        {
+          "stage": "Confirmation",
+          "start_timestamp": "2023-10-01T13:32:00Z",
+          "end_timestamp": "2023-10-01T13:33:00Z"
+        },
+        {
+          "stage": "Call Closing",
+          "start_timestamp": "2023-10-01T13:33:00Z",
+          "end_timestamp": "2023-10-01T13:35:09Z"
+        }
+      ],
+      "transcript_score": "Average",
+      "evaluation_score": "Very Good",
+      "is_escalated": 0,
+      "transcript_summary": [
+        {
+          "order": 0,
+          "content": "Patient requested to schedule an appointment."
+        },
+        { "order": 1, "content": "Agent verified patient details." },
+        { "order": 2, "content": "Appointment scheduled." },
+        { "order": 3, "content": "Patient confirmed details." },
+        { "order": 4, "content": "Call ended with satisfaction." }
+      ],
+      "session_topics": [
+        { "topic_name": "Doctor Name", "topic_value": "Dr. Smith" },
+        { "topic_name": "Hospital Branch", "topic_value": "Dubai Branch" },
+        { "topic_name": "Speciality", "topic_value": "General Medicine" },
+        { "topic_name": "Call Reason", "topic_value": "Schedule Appointment" }
+      ],
+      "session_transcript": [
+        {
+          "start_timestamp": "2023-10-01T13:27:00Z",
+          "end_timestamp": "2023-10-01T13:27:30Z",
+          "stage_name": "Opening / Greeting",
+          "agent": "Hello, thank you for calling. How can I assist you?",
+          "customer": "Hi, I need an appointment."
+        },
+        {
+          "start_timestamp": "2023-10-01T13:27:30Z",
+          "end_timestamp": "2023-10-01T13:28:00Z",
+          "stage_name": "Identification",
+          "agent": "Can I have your details?",
+          "customer": "Sure, my name is John Doe."
+        },
+        {
+          "start_timestamp": "2023-10-01T13:28:00Z",
+          "end_timestamp": "2023-10-01T13:32:00Z",
+          "stage_name": "Appointment Scheduling",
+          "agent": "Dr. Smith is available at 10:00 AM.",
+          "customer": "That works."
+        },
+        {
+          "start_timestamp": "2023-10-01T13:32:00Z",
+          "end_timestamp": "2023-10-01T13:33:00Z",
+          "stage_name": "Confirmation",
+          "agent": "Your appointment is confirmed.",
+          "customer": "Thanks!"
+        },
+        {
+          "start_timestamp": "2023-10-01T13:33:00Z",
+          "end_timestamp": "2023-10-01T13:35:09Z",
+          "stage_name": "Call Closing",
+          "agent": "Is there anything else?",
+          "customer": "No, thanks!"
+        }
+      ],
+      "call_Sentiment": "Neutral",
+      "call_Quality": "Poor",
+      "call_Resolution": "Unresolved"
+    }
+  ]
+}

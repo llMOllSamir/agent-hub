@@ -1,0 +1,46 @@
+[
+  {
+    "permission": "view_dashboard",
+    "description": "Allows the user to view the hospital call center dashboard."
+  },
+  {
+    "permission": "manage_agents",
+    "description": "Allows the user to add, edit, or deactivate agents in the call center."
+  },
+  {
+    "permission": "view_agents",
+    "description": "Allows the user to view the details of call center agents."
+  },
+  {
+    "permission": "view_call_logs",
+    "description": "Allows the user to access and review call logs and call data."
+  },
+  {
+    "permission": "listen_to_calls",
+    "description": "Allows the user to listen to recorded calls for quality assurance."
+  },
+  {
+    "permission": "create_reports",
+    "description": "Allows the user to generate and create reports on agent performance and call metrics."
+  },
+  {
+    "permission": "view_reports",
+    "description": "Allows the user to view existing reports and statistics."
+  },
+  {
+    "permission": "manage_roles",
+    "description": "Allows the user to assign or modify roles within the system."
+  },
+  {
+    "permission": "manage_settings",
+    "description": "Allows the user to modify system configurations and settings."
+  },
+  {
+    "permission": "view_patient_info",
+    "description": "Allows the user to access patient information associated with calls."
+  },
+  {
+    "permission": "escalate_calls",
+    "description": "Allows the user to escalate calls to higher authority when needed."
+  }
+]

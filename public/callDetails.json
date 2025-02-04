@@ -1,0 +1,101 @@
+{
+  "callEndTime": "2024-05-07T03:39:30",
+  "callerNumber": "123-456-7890",
+  "callDirection": "Inbound",
+  "callStartTime": "2024-05-07T02:44:30",
+  "callSummary": "Customer needs information about insurance claim. __SEPARATOR__ Claim is for a car accident that occurred on May 10, 2024. __SEPARATOR__ Agent checks the status of the claim and confirms it's under review. __SEPARATOR__ Customer does not have any further inquiries.",
+  "customerSatisfaction": "positive",
+  "interactionDuration": 622,
+  "InteractionTranscription": [
+    {
+      "startStamp": "00:00:00,000",
+      "endStamp": "00:00:13,000",
+      "tag": "Opening - Greeting",
+      "Agent": "Good afternoon, welcome to Xcampany, this is Sarah, how may I assist you?",
+      "customer": ""
+    },
+    {
+      "startStamp": "00:00:13,000",
+      "endStamp": "00:00:22,000",
+      "tag": "Issue Identification",
+      "Agent": "",
+      "customer": "Hi Sarah, I need some information about my insurance claim."
+    },
+    {
+      "startStamp": "00:00:22,000",
+      "endStamp": "00:00:59,000",
+      "tag": "Problem Solving",
+      "Agent": "Sure, could you please provide me with your policy details?",
+      "customer": "My policy number is 12345 and certificate number is 6789."
+    },
+    {
+      "startStamp": "00:00:59,000",
+      "endStamp": "00:00:59,000",
+      "tag": "Problem Solving",
+      "Agent": "Alright, and what's the nature of your claim?",
+      "customer": "It's for a car accident."
+    },
+    {
+      "startStamp": "00:00:59,000",
+      "endStamp": "00:00:59,000",
+      "tag": "Problem Solving",
+      "Agent": "Got it. Could you provide me with the date of the accident?",
+      "customer": "It happened on May 10, 2024."
+    },
+    {
+      "startStamp": "00:00:59,000",
+      "endStamp": "00:02:18,000",
+      "tag": "Problem Solving",
+      "Agent": "Thank you. Let me check the status of your claim.",
+      "customer": ""
+    },
+    {
+      "startStamp": "00:02:18,000",
+      "endStamp": "00:03:10,000",
+      "tag": "Confirmation",
+      "Agent": "Okay, I've checked. Your claim is currently under review.",
+      "customer": ""
+    },
+    {
+      "startStamp": "00:03:16,000",
+      "endStamp": "00:03:18,000",
+      "tag": "Closure",
+      "Agent": "Thank you for contacting Xcampany. Is there anything else I can assist you with?",
+      "customer": "No, thank you."
+    }
+  ],
+  "record": {
+    "callTags": [
+      {
+        "tag": "Alerting",
+        "timestamp": "00:00:00"
+      },
+      {
+        "tag": "Date Changed",
+        "timestamp": "00:17:00"
+      },
+      {
+        "tag": "Connected",
+        "timestamp": "00:30:00"
+      },
+      {
+        "tag": "Date Changed",
+        "timestamp": "00:45:00"
+      },
+      {
+        "tag": "Held",
+        "timestamp": "00:50:00"
+      },
+      {
+        "tag": "Disconnected",
+        "timestamp": "00:53:00"
+      }
+    ],
+    "filePath": "1.wav",
+    "callSummary": "Customer needs information about insurance claim. __SEPARATOR__ Claim is for a car accident that occurred on May 10, 2024. __SEPARATOR__ Agent checks the status of the claim and confirms it's under review. __SEPARATOR__ Customer does not have any further inquiries."
+  },
+  "AgentId": "Agent1",
+  "UUID": "77999943-2861-41b1-a499-38559d3d3795",
+  "EmployeeName": "Employee 1",
+  "agentScore": 1
+}

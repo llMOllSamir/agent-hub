@@ -1,0 +1,27 @@
+Dashboard
+System Management
+User Management
+	User Management
+		add/delete/modify
+	Role Management
+		add/delete/modify
+		admin
+		agent
+		supervisor
+	Agents	
+		add/delete/modify
+Interactions
+	Interactions Settings
+	Call Tags -> 
+		add/modify/delete/ai don't observe
+		
+		-> Doctor Name sub call-tag
+		-> Branch / Hospital Branch 
+		-> Promotions
+	Interaction Search
+	Interaction Analysis
+Performance Management
+	- KPIs
+	- Evaluation Forms
+Analytics
+	Reports

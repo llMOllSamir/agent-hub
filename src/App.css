@@ -1,0 +1,32 @@
+.dropdown>a {
+    animation: slideDown 0.3s ease-in-out;
+}
+
+.dropdown {
+    overflow-y: hidden;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+
+}
+
+.popUp {
+    animation: popUp 0.3s ease-in-out;
+}
+
+@keyframes popUp {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
