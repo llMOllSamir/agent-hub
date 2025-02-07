@@ -2,7 +2,7 @@ import { useContext, useMemo } from 'react'
 import { agentsContext } from '../../../context/AgentsContext'
 import { callsContext } from '../../../context/callsContext'
 import { useParams } from 'react-router-dom'
-import image from "../../../../public/assets/images/profile.jpg"
+import image from "../../../../public/assets/images/profile.webp"
 import { Activity, Clock8, Lightbulb, MessageSquareText } from 'lucide-react'
 import CallDurationChart from '../../../components/calls/CallDurationChart'
 import AudioPlayer from '../../../components/AudioRecorderPlayer'
@@ -24,7 +24,7 @@ export default function CallDetails() {
 
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-8 gap-4'>
-                <div className='bg-gray-100 shadow col-span-1 xl:col-span-2 py-10 rounded flex  flex-col gap-10   '>
+                <div className='bg-white shadow col-span-1 xl:col-span-2 py-10 rounded flex  flex-col gap-10   '>
                     <div className='flex justify-center items-center gap-4'>
                         <img src={image} alt='profile' className='size-20 object-cover rounded-2xl' />
                         <h2 className='text-xl font-bold'>{agent?.name}</h2>
@@ -68,20 +68,26 @@ export default function CallDetails() {
 
                     </div>
                 </div>
+
                 <div className=' col-span-1 lg:col-span-2  xl:col-span-6 grid grid-cols-1 gap-4 '>
+
                     <div className='grid grid-cols-1  md:grid-cols-2 xl:grid-cols-3 gap-4'>
+
                         <div className='bg-blue-600 shadow text-white  min-h-42 min-w-72 p-5 flex flex-col justify-center gap-4 '>
                             <div className='flex justify-between px-2 items-center'>
                                 <p className='flex justify-center items-center size-12 bg-blue-300  shadow-xl rounded-full'> <MessageSquareText size={25} color='blue' /></p>
-                                <Activity size={40} color='white' /></div>
+                                <Activity size={40} color='white' />
+                            </div>
                             <h3 className='text-5xl font-semibold px-5 '>{wordsUsed} <span className='text-lg'>Words</span></h3>
                         </div>
+
                         <div className='bg-purple-500  shadow text-white  min-h-42 min-w-72 p-5 flex flex-col justify-center gap-4'>
                             <div className='flex justify-between px-2  items-center'>
                                 <p className='flex justify-center items-center size-12 bg-purple-300  shadow-xl rounded-full'> <Lightbulb size={25} color='white' /></p>
                                 <Activity size={40} color='white' /></div>
                             <h3 className='text-5xl font-semibold px-5 '>{call.session_topics.length} <span className='text-lg'>Total Topics</span></h3>
                         </div>
+
                         <div className='bg-yellow-500  shadow text-white  min-h-42 min-w-72 p-5 flex flex-col justify-center gap-4'>
                             <div className='flex justify-between px-2  items-center'>
                                 <p className='flex justify-center items-center size-12   shadow-xl rounded-full'> <Clock8 size={25} color='white' /></p>
@@ -89,7 +95,8 @@ export default function CallDetails() {
                             <h3 className='text-5xl font-semibold px-5 '>{call.duration} <span className='text-lg'>Sec Call Duration</span></h3>
                         </div>
                     </div>
-                    <div className='bg-gray-100 shadow    flex justify-center items-center '>
+
+                    <div className='bg-white shadow grid  lg:px-10 '>
                         <CallDurationChart call={call} />
                     </div>
                 </div>
@@ -97,8 +104,8 @@ export default function CallDetails() {
             <div className='my-10'>
                 <AudioPlayer src={audio} />
             </div>
-            <div>
-                <h2 className='text-2xl font-bold my-5 text-blue-700'>Call Recording Script</h2>
+            <div className='grid gap-4'>
+                <h2 className='text-2xl font-bold my-5 text-blue-500'>Call Recording Script</h2>
                 <CallScriptTable call={call} />
             </div>
         </section>

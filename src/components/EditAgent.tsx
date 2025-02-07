@@ -43,7 +43,7 @@ export default function EditAgent({ closeModel, openModel, agent }: EditProps) {
     if (!agent || !openModel) return null
     return (
         <section className='fixed inset-0 z-10 bg-[rgba(0,0,0,0.4)] flex justify-center items-center ' onClick={() => { closeModel() }}>
-            <div onClick={(e) => e.stopPropagation()} className='popUp min-w-[450px] md:min-w-[500px] shadow-2xl shadow-gray-600 rounded-2xl bg-[rgba(255,255,255,0.8)] relative  p-10 aspect-video'>
+            <div onClick={(e) => e.stopPropagation()} className='popUp min-w-[450px] md:min-w-[500px] shadow-2xl shadow-gray-600 rounded-2xl bg-white relative  p-10 aspect-video'>
                 <button onClick={() => { closeModel() }} className='absolute end-5 top-5 cursor-pointer rounded-full size-8 transition-all hover:bg-gray-400 flex justify-center items-center '><X /></button>
                 <h2 className='text-blue-700 text-2xl my-5  font-bold'>Edit Information</h2>
                 <form onSubmit={formik.handleSubmit} onReset={formik.handleReset} className='flex flex-col gap-4  '>

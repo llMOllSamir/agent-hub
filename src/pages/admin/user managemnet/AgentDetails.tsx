@@ -1,9 +1,10 @@
 import { useContext, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { agentsContext } from '../../../context/AgentsContext'
-import profilePic from "../../../../public/assets/images/profile.jpg"
+import profilePic from "../../../../public/assets/images/profile.webp"
 import { History } from 'lucide-react'
-import { VictoryAxis, VictoryBar, VictoryChart, VictoryPie, VictoryTheme, VictoryTooltip } from 'victory'
+import Chart from "react-apexcharts";
+import { ApexOptions } from "apexcharts";
 import DataTable, { TableStyles, TableColumn } from 'react-data-table-component'
 import EditAgent from '../../../components/EditAgent'
 
@@ -17,6 +18,7 @@ type CallHistory = {
     rating: number | null;
 }
 
+
 export default function AgentDetails() {
     const { id } = useParams()
     const { agents } = useContext(agentsContext)
@@ -24,12 +26,41 @@ export default function AgentDetails() {
     const [openModal, setOpenModal] = useState(false)
     const data = useMemo(() => {
         return [
-            { metric: "Total Calls", value: agent?.performance?.total_calls },
-            { metric: "Missed Calls", value: agent?.performance?.missed_calls },
-            { metric: "Resolved Calls", value: agent?.performance?.resolved_calls },
+            { metric: "Total Calls", value: agent?.performance?.total_calls || 0 },
+            { metric: "Missed Calls", value: agent?.performance?.missed_calls || 0 },
+            { metric: "Resolved Calls", value: agent?.performance?.resolved_calls || 0 },
             { metric: "Avg Rating", value: Number(agent?.performance?.call_rating_avg) * 100 }
         ]
     }, [agent])
+
+    const barChartOptions: ApexOptions = {
+        chart: {
+            type: "bar",
+            toolbar: { show: false },
+        },
+        xaxis: {
+            categories: data.map((item) => item.metric), // X-axis labels
+        },
+        colors: ["#2b7fff"], // Custom bar color
+        plotOptions: {
+            bar: {
+                horizontal: false, // Set to true for a horizontal bar chart
+                columnWidth: "50%",
+            },
+        },
+        dataLabels: {
+            enabled: true,
+        },
+    };
+
+    const barSeries = [
+        {
+            name: "Performance",
+            data: data.map((item) => item.value),
+        },
+    ];
+
+
     const customStyles: TableStyles = {
         headRow: {
             style: {
@@ -60,6 +91,24 @@ export default function AgentDetails() {
             }
         }
 
+    };
+
+    const pieData = useMemo(() => {
+        return [
+            { x: "Morning", y: agent?.performance.call_distribution.morning || 0 },
+            { x: "Evening", y: agent?.performance.call_distribution.evening || 0 },
+        ];
+    }, [agent])
+
+    const chartOptions: ApexOptions = {
+        chart: {
+            type: "pie",
+        },
+        labels: pieData.map((item) => item.x), // Set labels for the pie chart
+        legend: {
+            position: "bottom",
+        },
+        colors: ["#82ff94", "#2b7fff"],
     };
 
 
@@ -113,89 +162,69 @@ export default function AgentDetails() {
     return (
         <>
             {
-                agent && <section className='shadow-2xl rounded-2xl capitalize  p-5 py-10'>
-                    <div className='flex justify-between mx-10'>
-                        <h2 className='text-xl text-blue-700 font-bold mb-5 '>Agent Profile</h2>
-                        <button onClick={() => { setOpenModal(true) }} className='bg-yellow-700 text-white cursor-pointer  px-4 py-2 rounded-xl' >Edit Profile</button>
+                agent && <section className='shadow-2xl rounded-2xl capitalize text-gray-500 grid grid-cols-1 mt-5 gap-6'>
+                    <div className='flex justify-between items-center mx-10'>
+                        <h2 className='text-xl text-blue-500 font-bold mb-5 '>Agent Profile</h2>
+                        <button onClick={() => { setOpenModal(true) }} className='bg-blue-500 text-white cursor-pointer  px-4 py-2 rounded-xl' >Edit Profile</button>
                     </div>
-                    <div className='flex flex-col lg:flex-row justify-center items-center gap-10 flex-wrap my-5'>
-                        <div className='flex items-center flex-col md:flex-row gap-10  shadow-2xl rounded-2xl p-5'>
-                            <img src={profilePic} alt={agent?.name || "Agent profile image"} className='w-52 aspect-[8/10] rounded-2xl shadow-2xl' />
+                    <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+
+                        <div className='flex flex-col gap-6  bg-white  shadow-2xl rounded-2xl p-5'>
+                            <h2 className='text-xl font-bold '>User Information</h2>
+                            <div className='flex items-center gap-4 mt-10'>
+                                <img src={profilePic} alt={agent?.name || "Agent profile image"} className='rounded-full shadow-2xl size-28' />
+                                <div className='flex flex-col  text-base font-semibold'>
+                                    <h3 className='text-xl font-bold'>{agent.name}</h3>
+                                    <p>{agent.role}</p>
+                                </div>
+                            </div>
+                            <h3 className='text-lg font-bold flex items-center gap-2'>Communication Info
+                                <hr className='grow' />
+                            </h3>
                             <div className='flex flex-col gap-2 text-base font-semibold '>
-                                <h3 className='text-xl font-bold'>{agent.name}</h3>
-                                <p>{agent.role}</p>
-                                <p>{agent.department}</p>
-                                <address>
-                                    <p ><Link to={`mailto:${agent.contact.email}`}>{agent.contact.email}</Link></p>
+                                <div className='flex gap-4 '>
+                                    <p>Phone: </p>
                                     <p ><Link to={`tel:${agent.contact.phone}`}>{agent.contact.phone}</Link></p>
-                                    <p >Ext: {agent.contact.extension}</p>
-                                    <p >{agent.location}</p>
-                                </address>
-                                <p className='flex gap-1 items-center'>
-                                    Last Activity:
-                                    <History size={18} />
-                                    {new Date(agent.activity.last_login).toDateString()}
-                                </p>
+                                </div>
+                                <div className='flex gap-4 '>
+                                    <p>Email: </p>
+                                    <p ><Link to={`mailto:${agent.contact.email}`}>{agent.contact.email}</Link></p>
+                                </div>
+                                <div className='flex gap-4 '>
+                                    <p>Extension: </p>
+                                    <p>{agent.contact.extension}</p>
+                                </div>
+                                <div className='flex gap-4 '>
+                                    <p>Department: </p>
+                                    <p>{agent.department}</p>
+                                </div>
+                                <div className='flex gap-4 '>
+                                    <p>Location: </p>
+                                    <p>{agent.location}</p>
+                                </div>
+
+                                <div className='flex gap-4 '>
+                                    <p>Last Activity: </p>
+                                    <p className='flex gap-2 justify-center items-center'>   <History size={18} />
+                                        {new Date(agent.activity.last_login).toDateString()}</p>
+                                </div>
                             </div>
                         </div>
 
-                        <div className="rounded-lg flex flex-col shadow-2xl  p-4 items-center max-w-96 w-3/4">
-                            <h2 className="text-xl font-semibold ">Call Distribution</h2>
-                            <VictoryPie
-                                data={
-                                    [{ x: "Morning", y: agent.performance.call_distribution.morning },
-                                    { x: "Evening", y: agent.performance.call_distribution.evening }]
-                                } animate={true}
-                                colorScale={["#6366F1", "#F59E0B"]}
-                                labels={({ datum }) => `${datum.x}: ${datum.y}`}
-                                style={{ labels: { fontSize: 14, fontWeight: "bold" } }}
-                                innerRadius={90}
-                                labelPosition={'startAngle'}
-                            />
+                        <div className="rounded-lg grid grid-cols-1 shadow-2xl   p-5  bg-white ">
+                            <h2 className="text-xl text-center font-semibold ">Call Distribution </h2>
+                            <Chart options={chartOptions} series={pieData.map((item) => item.y)} type="pie" height={400} width={"100%"} />
                         </div>
 
-                        <div className="p-4 bg-white shadow-md rounded-lg max-w-96 w-3/4">
+                        <div className="p-4 bg-white shadow-md rounded-lg ">
                             <h2 className="text-xl font-semibold mb-2 text-center">Agent Performance</h2>
-                            <VictoryChart theme={VictoryTheme.material} domainPadding={40}>
+                            <Chart options={barChartOptions} series={barSeries} type="bar" height={350} />
 
-                                {/* X-Axis (Performance Metrics) */}
-                                <VictoryAxis
-                                    tickValues={data.map(d => d.metric)}
-                                    tickFormat={data.map(d => d.metric)}
-                                    style={{
-                                        axis: { stroke: "#000" },
-                                        ticks: { stroke: "#000", size: 5 },
-                                        tickLabels: { fontSize: 12, fontWeight: "bold", angle: -15 }
-                                    }}
-                                />
-
-                                {/* Y-Axis (Values) */}
-                                <VictoryAxis
-                                    dependentAxis
-                                    tickFormat={(t) => `${t}`}
-                                    style={{
-                                        axis: { stroke: "#000" },
-                                        ticks: { stroke: "#000", size: 5 },
-                                        tickLabels: { fontSize: 12 }
-                                    }}
-                                />
-
-                                {/* Bar Chart */}
-                                <VictoryBar
-                                    data={data}
-                                    animate
-                                    x="metric"
-                                    y="value"
-                                    style={{ data: { fill: "#4F46E5", width: 50 } }}
-                                    labels={({ datum }) => datum.value}
-                                    labelComponent={<VictoryTooltip />}
-                                />
-                            </VictoryChart>
                         </div>
 
                     </div>
 
-                    <div className="p-4 bg-white shadow-md rounded-lg my-5 overflow-auto max-w-[300px] sm:max-w-[500px] md:max-w-[800px] lg:max-w-full">
+                    <div className="p-4 bg-white shadow-md rounded-lg my-5 overflow-x-auto  ">
                         <h2 className="text-xl font-semibold mb-2">Call History</h2>
                         <DataTable
                             columns={columns}

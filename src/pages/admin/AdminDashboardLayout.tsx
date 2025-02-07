@@ -1,22 +1,21 @@
-import React, { useEffect } from 'react'
-import { Outlet, useNavigate } from 'react-router-dom'
+import React from 'react'
+import { Navigate, Outlet } from 'react-router-dom'
 import { User } from '../../utils/data'
 import AdminSlider from '../../components/AdminSlider'
 import Main from '../../components/Main'
 
-export default function AdminDashboardLayout() {
 
-    const navigate = useNavigate()
+type Props = {
+    user: User | null
+    setUser: React.Dispatch<React.SetStateAction<User | null>>
+}
+export default function AdminDashboardLayout({ user, setUser }: Props) {
 
-    useEffect(() => {
-        const user: User | null = JSON.parse(localStorage.getItem("user") || "null") || null
-        if (user?.role === "agent") { navigate("/") }
-    }, [navigate])
-
+    if (user?.role !== "admin") return <Navigate to="/" />
     return (
         <React.Fragment>
             <AdminSlider />
-            <Main>
+            <Main user={user} setUser={setUser}>
                 <Outlet />
             </Main>
         </React.Fragment>

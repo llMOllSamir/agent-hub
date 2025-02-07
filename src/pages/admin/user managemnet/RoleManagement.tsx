@@ -32,12 +32,14 @@ export default function RoleManagement() {
             {/* Roles */}
             <div className=' mt-5 '>
                 <div className='flex gap-4 justify-start items-center'>
-                    <h2 className='text-2xl font-bold text-blue-700 my-4'>Roles Management</h2>
+                    <h2 className='text-2xl font-bold text-blue-500 my-4'>Roles Management</h2>
                     <button onClick={() => { handleOpenModal("add role") }} className='flex ms-auto bg-blue-700 text-white cursor-pointer  px-4 py-2 rounded-xl '>Add Role</button>
                 </div>
-                <RolesTable permissions={permissions} />
+
+                <div className='bg-white rounded-xl'> <RolesTable permissions={permissions} /></div>
+
                 {openModal && editSection === "add role" && <Modal closeModel={() => { setOpenModal(false); setSelectedPermission([]) }} >
-                    <h2 className='text-xl font-bold text-blue-800 my-4'>Add Role</h2>
+                    <h2 className='text-xl font-bold text-blue-500 my-4'>Add Role</h2>
                     <form className='max-w-[500px] w-[500px]' onSubmit={(e) => {
                         e.preventDefault();
                         const formData = new FormData(e.target as HTMLFormElement)
@@ -84,12 +86,12 @@ export default function RoleManagement() {
             {/* Permissions */}
             <div className=' mt-5 '>
                 <div className='flex gap-4 justify-start items-center'>
-                    <h2 className='text-2xl font-bold text-blue-700 my-4'>Permissions Management</h2>
+                    <h2 className='text-2xl font-bold text-blue-500 my-4'>Permissions Management</h2>
                     <button onClick={() => { handleOpenModal("add permission") }} className='flex ms-auto bg-blue-700 text-white cursor-pointer  px-4 py-2 rounded-xl '>Add Permission</button>
                 </div>
                 <PermissionsTable />
                 {openModal && editSection === "add permission" && <Modal closeModel={() => { setOpenModal(false) }} >
-                    <h2 className='text-xl font-bold text-blue-800 my-4'>Add Role</h2>
+                    <h2 className='text-xl font-bold text-blue-500 my-4'>Add Role</h2>
                     <form className='max-w-[500px] w-[500px]' onSubmit={(e) => {
                         e.preventDefault();
                         const formData = new FormData(e.target as HTMLFormElement)

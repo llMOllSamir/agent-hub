@@ -35,7 +35,7 @@ const AudioPlayer = ({ src }: { src: string }) => {
             setCurrentTime(formatTime(wavesurfer.current?.getCurrentTime() || 0));
         });
         return () => wavesurfer.current?.destroy();
-    }, [src]);
+    }, [src, waveformRef, isMuted, isPlaying, wavesurfer, duration]);
 
     const formatTime = (time: number) => {
         const minutes = Math.floor(time / 60);
@@ -58,20 +58,20 @@ const AudioPlayer = ({ src }: { src: string }) => {
     }, [isPlaying])
 
     return (
-        <div className="w-full py-4 px-10 h-28 bg-gray-100    flex items-center gap-4">
+        <div className="w-full py-4 px-10 h-28 bg-white   flex items-center gap-4">
             {/* Play / Pause Button */}
-            <button onClick={() => { setIsPlaying((prev) => !prev); }} className="p-2 bg-blue-600 active:animate-ping cursor-pointer  text-white rounded-full shadow-lg">
+            <button onClick={() => { setIsPlaying((prev) => !prev); }} className="p-2 bg-blue-500 active:animate-ping cursor-pointer  text-white rounded-full shadow-lg">
                 {isPlaying ? <Pause size={30} /> : <Play size={30} />}
             </button>
 
             {/* Current Time */}
-            <span className="text-sm text-gray-700">{currentTime}</span>
+            <span className="text-sm font-semibold text-gray-500">{currentTime}</span>
 
             {/* Waveform */}
             <div ref={waveformRef} className="w-full h-full "></div>
 
             {/* Mute / Unmute Button */}
-            <button onClick={() => { setIsMuted(!isMuted) }} className="text-gray-700">
+            <button onClick={() => { setIsMuted(!isMuted) }} className="text-gray-500">
                 {isMuted ? <VolumeX size={30} /> : <Volume2 size={30} />}
             </button>
 

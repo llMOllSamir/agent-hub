@@ -23,22 +23,30 @@ import RoleContextProvider from './context/RolesContext'
 import PermissionsContextProvider from './context/permissionsContext'
 import CallsContextProvider from './context/callsContext'
 import Demo from './components/Demo'
+import { useEffect, useState } from 'react'
 
+
+
+export type User = {
+  name: string,
+  password: string,
+  role: "admin" | "agent"
+}
 
 function App() {
-
+  const [user, setUser] = useState<User | null>(null)
 
   const router = createBrowserRouter([
-    { path: "/login", element: <Login /> },
+    { path: "/login", element: <Login setUser={setUser} /> },
     {
-      path: "/", element: <ProtectedRoutes   ><Outlet /></ProtectedRoutes>, children: [
+      path: "/", element: <ProtectedRoutes user={user}  ><Outlet /></ProtectedRoutes>, children: [
         {
-          path: "/", element: <HomeLayout />, children: [ // agents dashboard
+          path: "/", element: <HomeLayout user={user} />, children: [ // agents dashboard
             { index: true, element: <Demo /> }
           ]
         },
         {
-          path: "/admin", element: <AdminDashboardLayout />, children: [ // admin dashboard
+          path: "/admin", element: <AdminDashboardLayout user={user} setUser={setUser} />, children: [ // admin dashboard
             { index: true, element: <AdminDashboard /> },
             { path: "system-management", element: <SystemManagement /> },
             {
@@ -85,6 +93,13 @@ function App() {
     },
 
   ])
+
+
+  useEffect(() => {
+    if (localStorage.getItem("user")) {
+      setUser(JSON.parse(localStorage.getItem("user") || "null"))
+    }
+  }, [])
 
   return (
     <>

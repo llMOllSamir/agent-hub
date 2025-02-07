@@ -106,8 +106,8 @@ export default function Agents() {
 
     };
     return (
-        <section className='flex flex-col gap-4'>
-            <h2 className='text-2xl font-bold text-blue-600'>Agents List</h2>
+        <section className='grid grid-cols-1  gap-4' >
+            <h2 className='text-2xl font-bold text-blue-500'>Agents List</h2>
 
             <div className='flex justify-end w-full  items-center ms-auto relative'>
                 <label htmlFor="search" className='absolute top-1/2 -translate-y-1/2 end-3'>
@@ -117,7 +117,7 @@ export default function Agents() {
                     className='p-2 transition-all duration-300 w-80    focus:w-full md:focus:w-96 rounded-lg border-2 border-gray-300 focus:outline-0' />
             </div>
 
-            <div className='select-none shadow-2xl max-w-[360px] sm:max-w-[500px    ] md:max-w-[600px]  lg:max-w-full rounded-2xl p-5'>
+            <div className='select-none shadow-2xl  bg-white overflow-x-auto rounded-2xl p-5'>
                 <DataTable
                     columns={columns}
                     data={displayedData}

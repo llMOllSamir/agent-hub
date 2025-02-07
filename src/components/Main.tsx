@@ -4,9 +4,15 @@ import { Helmet } from "react-helmet";
 import { User } from '../utils/data';
 import { ChevronDown, Cog, LogOut } from 'lucide-react';
 
-export default function Main({ children }: { children: React.ReactNode }) {
+
+type Props = {
+    user: User | null
+    setUser: React.Dispatch<React.SetStateAction<User | null>>
+    children: React.ReactNode
+}
+
+export default function Main({ children, setUser, user }: Props) {
     const { pathname } = useLocation()
-    const user: User | null = JSON.parse(localStorage.getItem("user") || "null") || null
     const [openList, setOpenList] = useState(false)
     const [title, setTitle] = React.useState('')
     const navigate = useNavigate()
@@ -59,24 +65,24 @@ export default function Main({ children }: { children: React.ReactNode }) {
 
 
     return (
-        <main className='bg-gray-200 grow text-black px-10  py-3 flex flex-col ' >
+        <main className='bg-[#e7e9f6] grow  flex flex-col select-none ' >
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-            <header className='border-b-2 border-gray-300 p-3 px-5 -mx-5 mb-3 flex items-center  justify-between'>
+            <header className='py-4 px-4 md:px-14 my-5 mx-10 rounded-2xl shadow flex items-center bg-white justify-between sticky top-5 z-10'>
                 <h1 className='text-base md:text-xl lg:text-2xl font-bold   '>{title}</h1>
                 <div className='flex justify-between items-center gap-2 w-20 me-10'>
-                    <span className='size-8 p-3 flex justify-center items-center font-extrabold rounded-full bg-gray-300 capitalize'>{user?.name[0]}</span>
-                    <h3 className='font-bold text-lg capitalize'>{user?.name}</h3>
-                    <div className='flex justify-center items-center relative'>
-                        <ChevronDown size={20} className='cursor-pointer  flex justify-center items-center' onClick={() => setOpenList(!openList)} />
-                        <div className={`${openList ? "h-24  py-3 px-4  border-2 " : "h-0 overflow-hidden"} transition-all duration-300
-                        rounded-xl  z-10 select-none  bg-white w-36 absolute -start-32 -bottom-36 top-full mt-3 flex justify-start items-start flex-col gap-3 `}>
+                    <div className='flex justify-center items-center relative cursor-pointer' onClick={() => setOpenList(!openList)}>
+                        <h3 className='font-bold text-lg capitalize'>{user?.name}</h3>
+                        <ChevronDown size={20} className='  flex justify-center items-center' />
+                        <div className={`${openList ? "h-24  py-3 px-10   " : "h-0 "} overflow-hidden transition-all mt-2 duration-300
+                        rounded-xl  z-10 select-none  bg-white shadow w-fit absolute  -start-5  top-full  flex justify-start items-start flex-col gap-3 `}>
                             <Link onClick={() => { setOpenList(false) }} to={"/admin/settings"} className='flex justify-center items-center gap-2'>  <Cog size={25} absoluteStrokeWidth /> Setting</Link>
                             <button
                                 onClick={() => {
                                     setOpenList(false)
                                     localStorage.removeItem("user")
+                                    setUser(null)
                                     navigate("/login")
                                 }}
                                 className='flex justify-center items-center gap-2 cursor-pointer'>  <LogOut size={25} absoluteStrokeWidth /> Logout</button>

@@ -4,11 +4,12 @@ import { useEffect, useState } from 'react'
 
 type AnalysisCardProps = {
     title: string,
-    number: number | string,
-    Icon: LucideIcon
+    number: number,
+    Icon: LucideIcon,
+    unite: string
 }
 export default function AnalysisCard(props: AnalysisCardProps) {
-    const { Icon, number, title } = props
+    const { Icon, number, title, unite } = props
     const [displayNumber, setDisplayNumber] = useState(0)
     useEffect(() => {
         const timer = setInterval(() => {
@@ -30,16 +31,16 @@ export default function AnalysisCard(props: AnalysisCardProps) {
 
     return (
 
-        <div className='bg-yellow-400  h-52 rounded-2xl shadow p-5 px-10 lg:min-w-56 flex flex-col justify-center items-center gap-2'>
-            <div className='flex justify-center items-center flex-col   gap-3 '>
-                <span className='flex justify-center items-center size-10  bg-white bg-opacity-25 rounded-full'>
-                    <Icon size={20} strokeWidth={2.5} />
-                </span>
-                <h5 className='text-2xl  font-bold'>{
+        <div className='bg-white  rounded-2xl shadow p-5 px-10  flex min-h-42   justify-between items-center gap-2'>
+            <div className='flex justify-center items-start flex-col    gap-3 '>
+                <h4 className='font-bold text-base text-gray-500 '>{title}</h4>
+                <h5 className='text-3xl  font-bold hover:text-blue-500 transition-color duration-300'>{
                     displayNumber ? displayNumber : number
-                } </h5>
+                } {unite}</h5>
             </div>
-            <h4 className='font-bold text-base '>{title}</h4>
+            <span className='flex justify-center items-center size-10 self-start  bg-blue-200 text-blue-500  rounded-xl'>
+                <Icon size={20} strokeWidth={2.5} />
+            </span>
         </div>
     )
 }

@@ -37,8 +37,8 @@ export default function InteractionSearch() {
 
 
     return (
-        <section className='grow'>
-            <h2 className='text-2xl font-bold text-blue-700 my-4'>Calls Interaction</h2>
+        <section className='grid grid-cols-1 gap-6 mt-5'>
+            <h2 className='text-2xl font-bold text-blue-500 '>Calls Interaction</h2>
             <Filter searchTerm={searchTerm} setSearchTerm={setSearchTerm} filteredCalls={filteredCalls} setFilteredCalls={setFilteredCalls} setDateRange={setDateRange} dateRange={dateRange} />
             <CallsTable calls={displayCallsRecord} agent={getAgentName} />
         </section>

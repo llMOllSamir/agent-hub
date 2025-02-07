@@ -4,14 +4,21 @@ import { History, PhoneOutgoing, UsersRound } from 'lucide-react'
 import AnalysisCard from '../../components/AnalysisCard'
 import DataTable, { TableStyles } from 'react-data-table-component'
 import { Link, useNavigate } from 'react-router-dom'
-import { VictoryChart, VictoryLine, VictoryTheme, VictoryAxis, VictoryLegend, VictoryTooltip } from "victory";
+import Chart from "react-apexcharts";
 import { Agent } from '../../types/dataTypes'
-
+import { ApexOptions } from 'apexcharts'
+interface ChartData {
+    hour: string;
+    total: number;
+    answered: number;
+    waiting: number;
+    rejected: number;
+}
 export default function AdminDashboard() {
     const { agents } = useContext(agentsContext)
     const navigate = useNavigate()
 
-    const data = [
+    const data: ChartData[] = [
         { hour: "9 AM", total: 50, answered: 40, waiting: 5, rejected: 5 },
         { hour: "10 AM", total: 60, answered: 45, waiting: 8, rejected: 7 },
         { hour: "11 AM", total: 55, answered: 50, waiting: 3, rejected: 2 },
@@ -19,6 +26,43 @@ export default function AdminDashboard() {
         { hour: "1 PM", total: 65, answered: 55, waiting: 7, rejected: 3 },
         { hour: "2 PM", total: 80, answered: 70, waiting: 5, rejected: 5 },
     ];
+    const chartOptions: ApexOptions = {
+        chart: {
+            type: "line",
+            toolbar: { show: false },
+        },
+        xaxis: {
+            categories: data.map((d) => d.hour),
+        },
+        stroke: {
+            curve: "smooth",
+        },
+        tooltip: {
+            shared: true,
+            intersect: false,
+        },
+    };
+
+    const series = [
+        {
+            name: "Total Calls",
+            data: data.map((d) => d.total),
+        },
+        {
+            name: "Answered Calls",
+            data: data.map((d) => d.answered),
+        },
+        {
+            name: "Waiting Calls",
+            data: data.map((d) => d.waiting),
+        },
+        {
+            name: "Rejected Calls",
+            data: data.map((d) => d.rejected),
+        },
+    ];
+
+
     const flags = [
         { word: "emergency", repeated: 500 },
         { word: "patient", repeated: 50 },
@@ -140,32 +184,20 @@ export default function AdminDashboard() {
     };
 
     return (
-        <section className='flex flex-col gap-5   ' >
-            <h2 className='text-blue-600  text-2xl font-bold capitalize '>overview</h2>
-            <div className='flex justify-center  items-center  lg:mx-5   md:flex-row gap-4 flex-wrap '>
-                <AnalysisCard Icon={UsersRound} number={agents.length} title='Total Agents' />
-                <AnalysisCard Icon={PhoneOutgoing} number={2500} title='Numbers Of Calls' />
-                <AnalysisCard Icon={PhoneOutgoing} number={40} title='Total Calls Today' />
-                <AnalysisCard Icon={History} number={"4.4 min"} title='Average Call Durations' />
-                <div className=' bg-stone-200 flex-wrap gap-2 flex w-full md:w-1/2 shadow-xl lg:w-[400px] xl:w-[500px] rounded-2xl p-5 '>
-                    {flags.map((flag, index) => (
-                        <span
-                            key={index}
-                            style={{
-                                fontSize: `${Math.floor((flag.repeated / flagsRepeatedTime) * 100 * 4)}px`, // Scale size
-                                color: `hsl(${Math.random() * 360}, 100%, 40%)`, // Random color
-                                order: `${Math.floor(Math.random() * 10)}`,
-                            }}
-                            className={"transition-all duration-300 font-bold "}
-                        >{flag.word}</span>))}
-                </div>
+        <section className='grid grid-cols-1 gap-6 my-5 ' >
+
+            <div className='grid grid-cols-1    md:grid-cols-2   xl:grid-cols-4 gap-4   '>
+                <AnalysisCard Icon={UsersRound} number={agents.length} unite='Agent' title='Total Agents' />
+                <AnalysisCard Icon={PhoneOutgoing} number={2500} unite='Call' title='Numbers Of Calls' />
+                <AnalysisCard Icon={PhoneOutgoing} number={40} unite='Call' title='Total Calls Today' />
+                <AnalysisCard Icon={History} number={4.4} unite='min' title='Average Call Durations' />
             </div>
-            {/* charts and table */}
-            <div className='flex justify-start items-center flex-col lg:flex-row gap-10 '>
-                <div className='  bg-stone-200 rounded-xl shadow-xl min-w-full overflow-x-auto w-96  lg:min-w-1/2 p-5'>
+
+            <div className='grid grid-cols-1  lg:grid-cols-3 gap-4 '>
+                <div className='  bg-white rounded-xl shadow-xl min-w-full overflow-x-auto lg:col-span-2   p-5'>
                     <article className='flex justify-between items-center px-3'>
-                        <h4 className='text-xl font-bold text-blue-600 '>Agents</h4>
-                        <Link to={"/admin/user-management/agents"} className='bg-blue-600 text-white font-bold px-3 rounded '>All Agents</Link>
+                        <h4 className='text-xl font-bold text-blue-500 '>Agents</h4>
+                        <Link to={"/admin/user-management/agents"} className='bg-blue-200 text-blue-500 font-bold px-3 rounded '>All Agents</Link>
                     </article>
                     <DataTable
                         columns={columns}
@@ -179,68 +211,25 @@ export default function AdminDashboard() {
                         onRowClicked={(row) => navigate(`/admin/user-management/agents/${row.id}`)}
                     />
                 </div>
-                <div className=' flex flex-col items-center justify-center shadow-xl px-2 min-w-1/3 py-2 rounded-2xl  bg-stone-200  '>
-                    <h2 className="text-xl font-bold text-blue-600  text-center">Call Statistics Today</h2>
-                    <VictoryChart theme={VictoryTheme.material} animate
-                        width={window.innerWidth < 768 ? 350 : 600}
-                        height={window.innerWidth < 768 ? 300 : 400}
-                        style={{ parent: { margin: "auto", padding: "10px" } }}>
-                        <VictoryAxis tickValues={data.map((d) => d.hour)} tickFormat={data.map((d) => d.hour)}
+                <div className=' bg-white flex-wrap gap-2 flex  shadow-xl  rounded-2xl p-5 '>
+                    {flags.map((flag, index) => (
+                        <span
+                            key={index}
                             style={{
-                                tickLabels: { fontSize: window.innerWidth < 768 ? 8 : 12, angle: -45, textAnchor: "end" },
-                            }} />
-                        <VictoryAxis dependentAxis tickFormat={(t) => `${t} calls`} style={{
-                            tickLabels: {
-                                fontSize: window.innerWidth < 768 ? 8 : 10, // Set different font sizes based on screen size
-                            },
-                        }} />
-                        <VictoryLine
-                            data={data}
-                            x="hour"
-                            y="total"
-                            style={{ data: { stroke: "#4F46E5", strokeWidth: 3 } }}
-                            labels={({ datum }) => `Total: ${datum.total}`}
-                            labelComponent={<VictoryTooltip />}
-                        />
-                        <VictoryLine
-                            data={data}
-                            x="hour"
-                            y="answered"
-                            style={{ data: { stroke: "#22C55E", strokeWidth: 3 } }}
-                            labels={({ datum }) => `Answered: ${datum.answered}`}
-                            labelComponent={<VictoryTooltip />}
-                        />
-                        <VictoryLine
-                            data={data}
-                            x="hour"
-                            y="waiting"
-                            style={{ data: { stroke: "#FACC15", strokeWidth: 3, } }}
-                            labelComponent={<VictoryTooltip />}
-                            labels={({ datum }) => `Waiting: ${datum.waiting}`}
-                        />
-                        <VictoryLine
-                            data={data}
-                            x="hour"
-                            y="rejected"
-                            style={{ data: { stroke: "#EF4444", strokeWidth: 3 } }}
-                            labelComponent={<VictoryTooltip />}
-                            labels={({ datum }) => `Rejected: ${datum.rejected}`}
-                        />
-                        <VictoryLegend
-                            x={window.innerWidth < 768 ? 20 : 50}
-                            y={10}
-                            orientation="horizontal"
-                            gutter={window.innerWidth < 768 ? 10 : 20}
-                            data={[
-                                { name: "Total Calls", symbol: { fill: "#4F46E5" } },
-                                { name: "Answered", symbol: { fill: "#22C55E" } },
-                                { name: "Waiting", symbol: { fill: "#FACC15" } },
-                                { name: "Rejected", symbol: { fill: "#EF4444" } },
-                            ]}
-                        />
-                    </VictoryChart>
+                                fontSize: `${Math.floor((flag.repeated / flagsRepeatedTime) * 100 * 4)}px`, // Scale size
+                                color: `hsl(${Math.random() * 360}, 100%, 40%)`, // Random color
+                                order: `${Math.floor(Math.random() * 10)}`,
+                            }}
+                            className={"transition-all duration-300 font-bold "}
+                        >{flag.word}</span>))}
                 </div>
+            </div>
 
+            <div className='grid grid-cols-1  gap-4 '>
+                <div className=' grid grid-cols-1shadow-xl px-2  py-2 rounded-2xl xl:col-span-2  bg-white   '>
+                    <h2 className="text-xl font-bold text-blue-500  text-center">Call Statistics Today</h2>
+                    <Chart options={chartOptions} series={series} type="line" height={350} width={"100%"} />
+                </div>
             </div>
         </section >
     )

@@ -73,8 +73,8 @@ export default function CallScriptTable({ call }: Props) {
             {
                 name: "Record Texting",
                 selector: (row) => row.transcript,
+                width: "500px",
                 wrap: true,
-                grow: 3,
                 style: {
                     fontWeight: "bold"
                 }
@@ -136,6 +136,7 @@ export default function CallScriptTable({ call }: Props) {
                 customStyles={customStyles}
                 highlightOnHover
                 striped
+                responsive
                 paginationPerPage={10}
                 paginationRowsPerPageOptions={[10]}
             /></div>

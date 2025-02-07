@@ -61,6 +61,7 @@ export default function PermissionsTable() {
                 paddingLeft: "10px",
                 borderLeft: "1px solid #ccc",
                 borderRight: "1px solid #ccc",
+                width: "500px"
             }
         },
         {
@@ -90,7 +91,7 @@ export default function PermissionsTable() {
 
 
     return (
-        <>
+        <div className='grid grid-cols-1 overflow-x-auto'>
             <DataTable
                 columns={permissionsColumns}
                 data={permissionsDisplay}
@@ -110,7 +111,7 @@ export default function PermissionsTable() {
 
             {
                 openModal && selectedPermission && <Modal closeModel={() => { setOpenModal(false); setSelectedPermission(null) }}>
-                    <h2 className='text-xl font-bold text-blue-800 my-4'>Edit Permission</h2>
+                    <h2 className='text-xl font-bold text-blue-500 my-4'>Edit Permission</h2>
                     <form className='max-w-[500px] w-[500px]' onSubmit={(e) => {
                         e.preventDefault();
                         const formData = new FormData(e.target as HTMLFormElement)
@@ -148,7 +149,7 @@ export default function PermissionsTable() {
                 </Modal>}
 
 
-        </>
+        </div>
 
     )
 }

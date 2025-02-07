@@ -1,10 +1,14 @@
 @import "tailwindcss";
 
 #root {
-    @apply min-h-screen w-full flex bg-gray-50 text-white max-w-screen
+    @apply min-h-screen w-full flex bg-white text-gray-700 max-w-screen
 }
 
 
 aside a.active {
-    @apply text-black
+    @apply text-blue-500 rounded
+}
+
+section {
+    @apply px-10
 }

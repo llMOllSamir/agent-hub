@@ -46,6 +46,7 @@ export default function RolesTable({ permissions }: { permissions: Permission[] 
                 paddingLeft: "10px",
                 borderLeft: "1px solid #ccc",
                 borderRight: "1px solid #ccc",
+                width: "500px"
             }
         },
         {
@@ -60,6 +61,11 @@ export default function RolesTable({ permissions }: { permissions: Permission[] 
     ]), [deleteRole])
 
     const customStyles: TableStyles = {
+        table: {
+            style: {
+                backgroundColor: 'transparent',
+            }
+        },
         headRow: {
             style: {
                 fontSize: '18px',
@@ -83,19 +89,13 @@ export default function RolesTable({ permissions }: { permissions: Permission[] 
                 paddingBlock: "4px"
             }
         }
-        ,
-        pagination: {
-            style: {
-            }
-        }
-
     };
     useEffect(() => {
         if (selectedRole) setSelectedRolePermissions(selectedRole.permissions)
     }, [selectedRole])
 
     return (
-        <>
+        <div className='grid grid-cols-1 overflow-x-auto'>
             <DataTable
                 columns={roleColumns}
                 data={rolesDisplay}
@@ -108,14 +108,13 @@ export default function RolesTable({ permissions }: { permissions: Permission[] 
                 highlightOnHover
                 striped
                 pointerOnHover
-                className='rounded-2xl'
                 customStyles={customStyles}
                 noDataComponent={<h2 className='text-xl font-bold text-blue-700 my-4'>No permissions found</h2>}
             />
 
             {
                 openModal && selectedRole && <Modal closeModel={() => { setOpenModal(false); setSelectedRole(null) }}>
-                    <h2 className='text-xl font-bold text-blue-800 my-4'>Edit Role</h2>
+                    <h2 className='text-xl font-bold text-blue-500 my-4'>Edit Role</h2>
                     <form className='max-w-[500px] w-[500px]' onSubmit={(e) => {
                         e.preventDefault();
                         editRolePermissions(selectedRole.role, selectedRolePermissions)
@@ -167,7 +166,7 @@ export default function RolesTable({ permissions }: { permissions: Permission[] 
                 </Modal>
             }
 
-        </>
+        </div>
 
     )
 }

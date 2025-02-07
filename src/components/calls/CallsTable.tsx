@@ -98,7 +98,7 @@ export default function CallsTable({ calls, agent }: Props) {
     };
 
     return (
-        <div className='overflow-auto w-[350px] sm:w-[500px] md:w-[700px] lg:w-4xl xl:w-5xl 2xl:w-full   '>
+        <div className='overflow-x-auto bg-white rounded-2xl '>
             <DataTable
                 columns={columns}
                 data={calls}
